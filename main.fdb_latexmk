@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1584385803 "main.aux" "main.bbl" "main" 1584722367
+["bibtex main"] 1585685431 "main.aux" "main.bbl" "main" 1585685434
   "./genetics.bst" 1584081234 27895 04f1bcce70c2bf2d315cac3f3db91b8b ""
-  "example-bibliography.bib" 1584081234 808 b763131e958fe628d17adde352d6dd0b ""
-  "main.aux" 1584722367 3606 59c2dd2f697af7f69b4bbdf437f05801 ""
+  "magic_tex.bib" 1585682826 100724 7c7e55572d7504b12e374fb286bf53f8 ""
+  "main.aux" 1585685434 7302 58f34fbf01cb9f52e57ec814758971f2 ""
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1584722365 "main.tex" "main.pdf" "main" 1584722367
+  "main.bbl"
+["pdflatex"] 1585685431 "main.tex" "main.pdf" "main" 1585685434
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1480098688 4484 b828043cbd581d289d955903c1339981 ""
@@ -230,14 +230,16 @@
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
   "figures/Methods_Fig1.png" 1584385667 226249 e64361673c4c439493526be92b69c502 ""
+  "figures/Methods_Fig2.png" 1585597185 68336 dda06705a973d8b04a193d1cd5a2b524 ""
+  "figures/Methods_Fig3.png" 1585683697 680969 6163df74eb63c2af7605f1a4f31bcca8 ""
   "figures/lab_group.png" 1584081234 2477811 fa62cf1ad623361984760076254c64fb ""
-  "main.aux" 1584722367 3606 59c2dd2f697af7f69b4bbdf437f05801 ""
-  "main.bbl" 1584385804 720 3dd1af9f2484d1b8318dd2aba9d98641 "bibtex main"
-  "main.out" 1584722366 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "main.tex" 1584392716 16712 0dbc58a9f506c74c89158f0322a2bae5 ""
+  "main.aux" 1585685434 7302 58f34fbf01cb9f52e57ec814758971f2 ""
+  "main.bbl" 1585685431 2987 cebaeb15e6d5c8aa02cf1a2fcde17b07 "bibtex main"
+  "main.out" 1585685432 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "main.tex" 1585685425 23988 b49e2cfedb745abda23292e3ae7f976d ""
   "rilabRxiv.cls" 1584722362 9442 2b209b456b4ce812ed4db6422e1643b2 ""
   (generated)
-  "main.aux"
-  "main.out"
   "main.log"
+  "main.aux"
   "main.pdf"
+  "main.out"

@@ -2,45 +2,45 @@ This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: genetics.bst
-Database file #1: example-bibliography.bib
-You've used 2 entries,
+Database file #1: magic_tex.bib
+You've used 8 entries,
             2762 wiz_defined-function locations,
-            624 strings with 5078 characters,
-and the built_in function-call counts, 1446 in all, are:
-= -- 115
-> -- 131
+            673 strings with 7232 characters,
+and the built_in function-call counts, 6738 in all, are:
+= -- 531
+> -- 674
 < -- 0
-+ -- 50
-- -- 40
-* -- 163
-:= -- 255
-add.period$ -- 4
-call.type$ -- 2
-change.case$ -- 24
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 48
-empty$ -- 72
-format.name$ -- 42
-if$ -- 274
++ -- 264
+- -- 216
+* -- 771
+:= -- 1177
+add.period$ -- 16
+call.type$ -- 8
+change.case$ -- 126
+chr.to.int$ -- 8
+cite$ -- 8
+duplicate$ -- 192
+empty$ -- 294
+format.name$ -- 224
+if$ -- 1273
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 2
-newline$ -- 9
-num.names$ -- 8
-pop$ -- 21
+missing$ -- 8
+newline$ -- 27
+num.names$ -- 32
+pop$ -- 108
 preamble$ -- 1
-purify$ -- 22
+purify$ -- 118
 quote$ -- 0
-skip$ -- 36
+skip$ -- 149
 stack$ -- 0
-substring$ -- 55
-swap$ -- 16
+substring$ -- 251
+swap$ -- 66
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
+type$ -- 72
 warning$ -- 0
-while$ -- 8
+while$ -- 32
 width$ -- 0
-write$ -- 24
+write$ -- 90

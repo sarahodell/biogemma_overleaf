@@ -1,16 +1,58 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{8}
 
-\bibitem[{Bourne {\em et~al.\/}}(2017){Bourne, Polka, Vale, {\rm and}
-  Kiley}]{bourne2017ten}
-{Bourne, P.~E., J.~K. Polka, R.~D. Vale, {\rm and} R.~Kiley}, 2017 Ten simple
-  rules to consider regarding preprint submission. PLoS computational biology
-  {\bf 13}: e1005473.
+\bibitem[{Beavis {\em et~al.\/}}(1991){Beavis, Grant, Albertsen, {\rm and}
+  Fincher}]{RN42}
+{Beavis, W.~D., D.~Grant, M.~Albertsen, {\rm and} R.~Fincher}, 1991
+  Quantitative trait loci for plant height in four maize populations and their
+  associations with qualitative genetic loci. Theoretical and Applied Genetics
+  {\bf 83}: 141--145.
 
-\bibitem[{Hufford {\em et~al.\/}}(2012){Hufford, Xu, Van~Heerwaarden,
-  Pyh{\"a}j{\"a}rvi, Chia, Cartwright, Elshire, Glaubitz, Guill, Kaeppler, {\em
-  et~al.\/}}]{hufford2012comparative}
-{Hufford, M.~B., X.~Xu, J.~Van~Heerwaarden, T.~Pyh{\"a}j{\"a}rvi, J.-M. Chia,
-  {\em et~al.\/}}, 2012 Comparative population genomics of maize domestication
-  and improvement. Nature genetics {\bf 44}: 808.
+\bibitem[{Broman {\em et~al.\/}}(2019){Broman, Gatti, Simecek, Furlotte, Prins,
+  Sen, Yandell, {\rm and} Churchill}]{RN39}
+{Broman, K.~W., D.~M. Gatti, P.~Simecek, N.~A. Furlotte, P.~Prins, {\em
+  et~al.\/}}, 2019 R/qtl2: Software for mapping quantitative trait loci with
+  high-dimensional data and multiparent populations. Genetics {\bf 211}:
+  495--502.
+
+\bibitem[{Buckler {\em et~al.\/}}(2009){Buckler, Holland, Bradbury, Acharya,
+  Brown, Browne, Ersoz, Flint-Garcia, Garcia, Glaubitz, Goodman, Harjes, Guill,
+  Kroon, Larsson, Lepak, Li, Mitchell, Pressoir, Peiffer, Rosas, Rocheford,
+  Romay, Romero, Salvo, Villeda, Sofia~da Silva, Sun, Tian, Upadyayula, Ware,
+  Yates, Yu, Zhang, Kresovich, {\rm and} McMullen}]{RN40}
+{Buckler, E.~S., J.~B. Holland, P.~J. Bradbury, C.~B. Acharya, P.~J. Brown,
+  {\em et~al.\/}}, 2009 The genetic architecture of maize flowering time.
+  Science {\bf 325}: 714--718.
+
+\bibitem[{Dell'Acqua {\em et~al.\/}}(2015){Dell'Acqua, Gatti, Pea, Cattonaro,
+  Coppens, Magris, Hlaing, Aung, Nelissen, Baute, Frascaroli, Churchill, Inze,
+  Morgante, {\rm and} Pe}]{RN65}
+{Dell'Acqua, M., D.~M. Gatti, G.~Pea, F.~Cattonaro, F.~Coppens, {\em
+  et~al.\/}}, 2015 Genetic properties of the magic maize population: a new
+  platform for high definition qtl mapping in zea mays. Genome Biology {\bf
+  16}: 167.
+
+\bibitem[{Huang {\em et~al.\/}}(2012){Huang, George, Forrest, Kilian, Hayden,
+  Morell, {\rm and} Cavanagh}]{RN8}
+{Huang, B.~E., A.~W. George, K.~L. Forrest, A.~Kilian, M.~J. Hayden, {\em
+  et~al.\/}}, 2012 A multiparent advanced generation inter-cross population for
+  genetic analysis in wheat. Plant Biotechnology Journal {\bf 10}: 826--839.
+
+\bibitem[{Martinez {\em et~al.\/}}(2016){Martinez, Soriano, Tuberosa,
+  Koumproglou, Jahrmann, {\rm and} Salvi}]{RN85}
+{Martinez, A.~K., J.~M. Soriano, R.~Tuberosa, R.~Koumproglou, T.~Jahrmann, {\em
+  et~al.\/}}, 2016 Yield qtlome distribution correlates with gene density in
+  maize. Plant Science {\bf 242}: 300--309.
+
+\bibitem[{Wallace {\em et~al.\/}}(2014){Wallace, Bradbury, Zhang, Gibon, Stitt,
+  {\rm and} Buckler}]{RN93}
+{Wallace, J.~G., P.~J. Bradbury, N.~Zhang, Y.~Gibon, M.~Stitt, {\em et~al.\/}},
+  2014 Association mapping across numerous traits reveals patterns of
+  functional variation in maize. PLOS Genetics {\bf 10}: e1004845.
+
+\bibitem[{Yu {\em et~al.\/}}(2008){Yu, Holland, McMullen, {\rm and}
+  Buckler}]{RN75}
+{Yu, J., J.~B. Holland, M.~D. McMullen, {\rm and} E.~S. Buckler}, 2008 Genetic
+  design and statistical power of nested association mapping in maize. Genetics
+  {\bf 178}: 539--551.
 
 \end{thebibliography}
