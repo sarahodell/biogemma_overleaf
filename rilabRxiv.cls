@@ -290,7 +290,7 @@ THE ABSTRACT\vskip12pt}\let\go\relax\fi
 \newcommand\correspondingauthoraffiliation[1]{%
   \begingroup
   \setlength{\myFootnoteLabel}{0em}
-\renewcommand\thefootnote{}\footnote{\footnotelayout\copyrightfont\textsuperscript{1}#1}%
+\renewcommand\thefootnote{}\footnote{\footnotelayout\copyrightfont\textsuperscript{*}#1}%
   \addtocounter{footnote}{-1}%
   \addtocounter{Hfootnote}{-1}%
   \endgroup

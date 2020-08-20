@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1585685431 "main.aux" "main.bbl" "main" 1585685434
+["bibtex main"] 1596841163 "main.aux" "main.bbl" "main" 1597084818
   "./genetics.bst" 1584081234 27895 04f1bcce70c2bf2d315cac3f3db91b8b ""
-  "magic_tex.bib" 1585682826 100724 7c7e55572d7504b12e374fb286bf53f8 ""
-  "main.aux" 1585685434 7302 58f34fbf01cb9f52e57ec814758971f2 ""
+  "magic_tex.bib" 1596735796 44248 dab0a1e09c7651509cd58b6d6f958a21 ""
+  "main.aux" 1596841166 8760 cf847d30939445561e9189aa7cf88124 ""
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1585685431 "main.tex" "main.pdf" "main" 1585685434
+["pdflatex"] 1596841163 "main.tex" "main.pdf" "main" 1597084818
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1480098688 4484 b828043cbd581d289d955903c1339981 ""
@@ -233,13 +233,13 @@
   "figures/Methods_Fig2.png" 1585597185 68336 dda06705a973d8b04a193d1cd5a2b524 ""
   "figures/Methods_Fig3.png" 1585683697 680969 6163df74eb63c2af7605f1a4f31bcca8 ""
   "figures/lab_group.png" 1584081234 2477811 fa62cf1ad623361984760076254c64fb ""
-  "main.aux" 1585685434 7302 58f34fbf01cb9f52e57ec814758971f2 ""
-  "main.bbl" 1585685431 2987 cebaeb15e6d5c8aa02cf1a2fcde17b07 "bibtex main"
-  "main.out" 1585685432 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "main.tex" 1585685425 23988 b49e2cfedb745abda23292e3ae7f976d ""
-  "rilabRxiv.cls" 1584722362 9442 2b209b456b4ce812ed4db6422e1643b2 ""
+  "main.aux" 1596841166 8760 cf847d30939445561e9189aa7cf88124 ""
+  "main.bbl" 1596841163 5250 461399be90030d01fcf9d72d60b3d176 "bibtex main"
+  "main.out" 1596841164 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "main.tex" 1596841157 27691 9300b9c1fdd951025cac6c05c9638444 ""
+  "rilabRxiv.cls" 1585688339 9442 cc3269dc2593a0fceb0a087be70fd610 ""
   (generated)
-  "main.log"
-  "main.aux"
   "main.pdf"
+  "main.log"
   "main.out"
+  "main.aux"

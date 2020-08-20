@@ -1,58 +1,98 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{14}
+
+\bibitem[{Aylor {\em et~al.\/}}(2011){Aylor, Valdar, Foulds-Mathes, Buus,
+  Verdugo, Baric, Ferris, Frelinger, Heise, Frieman, Gralinski, Bell, Didion,
+  Hua, Nehrenberg, Powell, Steigerwalt, Xie, Kelada, Collins, Yang, Schwartz,
+  Branstetter, Chesler, Miller, Spence, Liu, McMillan, Sarkar, Wang, Wang,
+  Zhang, Broman, Korstanje, Durrant, Mott, Iraqi, Pomp, Threadgill,
+  Pardo-Manuel~de Villena, {\rm and} Churchill}]{RN31}
+{Aylor, D.~L., W.~Valdar, W.~Foulds-Mathes, R.~J. Buus, R.~A. Verdugo, {\em
+  et~al.\/}}, 2011 Genetic analysis of complex traits in the emerging
+  collaborative cross. Genome Research {\bf 21}: 1213--1222.
 
 \bibitem[{Beavis {\em et~al.\/}}(1991){Beavis, Grant, Albertsen, {\rm and}
-  Fincher}]{RN42}
+  Fincher}]{RN1}
 {Beavis, W.~D., D.~Grant, M.~Albertsen, {\rm and} R.~Fincher}, 1991
   Quantitative trait loci for plant height in four maize populations and their
   associations with qualitative genetic loci. Theoretical and Applied Genetics
   {\bf 83}: 141--145.
 
 \bibitem[{Broman {\em et~al.\/}}(2019){Broman, Gatti, Simecek, Furlotte, Prins,
-  Sen, Yandell, {\rm and} Churchill}]{RN39}
+  Sen, Yandell, {\rm and} Churchill}]{RN2}
 {Broman, K.~W., D.~M. Gatti, P.~Simecek, N.~A. Furlotte, P.~Prins, {\em
   et~al.\/}}, 2019 R/qtl2: Software for mapping quantitative trait loci with
   high-dimensional data and multiparent populations. Genetics {\bf 211}:
   495--502.
 
+\bibitem[{Browning {\rm and} Browning}(2013)]{Browning459}
+{Browning, B.~L. {\rm and} S.~R. Browning}, 2013 Improving the accuracy and
+  efficiency of identity-by-descent detection in population data. Genetics {\bf
+  194}: 459--471.
+
 \bibitem[{Buckler {\em et~al.\/}}(2009){Buckler, Holland, Bradbury, Acharya,
   Brown, Browne, Ersoz, Flint-Garcia, Garcia, Glaubitz, Goodman, Harjes, Guill,
   Kroon, Larsson, Lepak, Li, Mitchell, Pressoir, Peiffer, Rosas, Rocheford,
   Romay, Romero, Salvo, Villeda, Sofia~da Silva, Sun, Tian, Upadyayula, Ware,
-  Yates, Yu, Zhang, Kresovich, {\rm and} McMullen}]{RN40}
+  Yates, Yu, Zhang, Kresovich, {\rm and} McMullen}]{RN3}
 {Buckler, E.~S., J.~B. Holland, P.~J. Bradbury, C.~B. Acharya, P.~J. Brown,
   {\em et~al.\/}}, 2009 The genetic architecture of maize flowering time.
   Science {\bf 325}: 714--718.
 
-\bibitem[{Dell'Acqua {\em et~al.\/}}(2015){Dell'Acqua, Gatti, Pea, Cattonaro,
-  Coppens, Magris, Hlaing, Aung, Nelissen, Baute, Frascaroli, Churchill, Inze,
-  Morgante, {\rm and} Pe}]{RN65}
-{Dell'Acqua, M., D.~M. Gatti, G.~Pea, F.~Cattonaro, F.~Coppens, {\em
+\bibitem[{Dell’Acqua {\em et~al.\/}}(2015){Dell’Acqua, Gatti, Pea,
+  Cattonaro, Coppens, Magris, Hlaing, Aung, Nelissen, Baute, Frascaroli,
+  Churchill, Inzé, Morgante, {\rm and} Pè}]{RN4}
+{Dell’Acqua, M., D.~M. Gatti, G.~Pea, F.~Cattonaro, F.~Coppens, {\em
   et~al.\/}}, 2015 Genetic properties of the magic maize population: a new
   platform for high definition qtl mapping in zea mays. Genome Biology {\bf
   16}: 167.
 
+\bibitem[{Highfill {\em et~al.\/}}(2016){Highfill, Reeves, {\rm and}
+  Macdonald}]{RN24}
+{Highfill, C.~A., G.~A. Reeves, {\rm and} S.~J. Macdonald}, 2016 Genetic
+  analysis of variation in lifespan using a multiparental advanced intercross
+  drosophila mapping population. BMC Genetics {\bf 17}: 113.
+
 \bibitem[{Huang {\em et~al.\/}}(2012){Huang, George, Forrest, Kilian, Hayden,
-  Morell, {\rm and} Cavanagh}]{RN8}
+  Morell, {\rm and} Cavanagh}]{RN5}
 {Huang, B.~E., A.~W. George, K.~L. Forrest, A.~Kilian, M.~J. Hayden, {\em
   et~al.\/}}, 2012 A multiparent advanced generation inter-cross population for
   genetic analysis in wheat. Plant Biotechnology Journal {\bf 10}: 826--839.
 
 \bibitem[{Martinez {\em et~al.\/}}(2016){Martinez, Soriano, Tuberosa,
-  Koumproglou, Jahrmann, {\rm and} Salvi}]{RN85}
+  Koumproglou, Jahrmann, {\rm and} Salvi}]{RN7}
 {Martinez, A.~K., J.~M. Soriano, R.~Tuberosa, R.~Koumproglou, T.~Jahrmann, {\em
   et~al.\/}}, 2016 Yield qtlome distribution correlates with gene density in
   maize. Plant Science {\bf 242}: 300--309.
 
+\bibitem[{Ogut {\em et~al.\/}}(2015){Ogut, Bian, Bradbury, {\rm and}
+  Holland}]{ogut2015joint}
+{Ogut, F., Y.~Bian, P.~J. Bradbury, {\rm and} J.~B. Holland}, 2015
+  Joint-multiple family linkage analysis predicts within-family variation
+  better than single-family analysis of the maize nested association mapping
+  population. Heredity {\bf 114}: 552--563.
+
+\bibitem[{Runcie {\rm and} Crawford}(2019)]{RN14}
+{Runcie, D.~E. {\rm and} L.~Crawford}, 2019 Fast and flexible linear mixed
+  models for genome-wide genetics. PLOS Genetics {\bf 15}: e1007978.
+
+\bibitem[{Unterseer {\em et~al.\/}}(2014){Unterseer, Bauer, Haberer, Seidel,
+  Knaak, Ouzunova, Meitinger, Strom, Fries, Pausch, Bertani, Davassi, Mayer,
+  {\rm and} Schön}]{RN13}
+{Unterseer, S., E.~Bauer, G.~Haberer, M.~Seidel, C.~Knaak, {\em et~al.\/}},
+  2014 A powerful tool for genome analysis in maize: development and evaluation
+  of the high density 600 k snp genotyping array. BMC Genomics {\bf 15}: 823.
+
 \bibitem[{Wallace {\em et~al.\/}}(2014){Wallace, Bradbury, Zhang, Gibon, Stitt,
-  {\rm and} Buckler}]{RN93}
+  {\rm and} Buckler}]{RN8}
 {Wallace, J.~G., P.~J. Bradbury, N.~Zhang, Y.~Gibon, M.~Stitt, {\em et~al.\/}},
   2014 Association mapping across numerous traits reveals patterns of
   functional variation in maize. PLOS Genetics {\bf 10}: e1004845.
 
-\bibitem[{Yu {\em et~al.\/}}(2008){Yu, Holland, McMullen, {\rm and}
-  Buckler}]{RN75}
-{Yu, J., J.~B. Holland, M.~D. McMullen, {\rm and} E.~S. Buckler}, 2008 Genetic
-  design and statistical power of nested association mapping in maize. Genetics
-  {\bf 178}: 539--551.
+\bibitem[{Yu {\em et~al.\/}}(2006){Yu, Pressoir, Briggs, Vroh~Bi, Yamasaki,
+  Doebley, McMullen, Gaut, Nielsen, Holland, Kresovich, {\rm and}
+  Buckler}]{RN11}
+{Yu, J., G.~Pressoir, W.~H. Briggs, I.~Vroh~Bi, M.~Yamasaki, {\em et~al.\/}},
+  2006 A unified mixed-model method for association mapping that accounts for
+  multiple levels of relatedness. Nature Genetics {\bf 38}: 203--208.
 
 \end{thebibliography}
