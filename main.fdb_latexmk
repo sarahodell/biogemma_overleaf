@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1611183121 "main.aux" "main.bbl" "main" 1611183125
+["bibtex main"] 1611867553 "main.aux" "main.bbl" "main" 1611867578
   "./genetics.bst" 1584081234 27895 04f1bcce70c2bf2d315cac3f3db91b8b ""
   "magic_tex.bib" 1596735796 44248 dab0a1e09c7651509cd58b6d6f958a21 ""
-  "main.aux" 1611183124 9198 5644968c57a47464aca1dce95ad79d90 ""
+  "main.aux" 1611867557 9582 9fdafc88fc762063c4ba7ba2c294e168 ""
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1611183122 "main.tex" "main.pdf" "main" 1611183125
+["pdflatex"] 1611867553 "main.tex" "main.pdf" "main" 1611867578
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1480098688 4484 b828043cbd581d289d955903c1339981 ""
@@ -235,15 +235,15 @@
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
   "figures/Methods_Fig1.png" 1584385667 226249 e64361673c4c439493526be92b69c502 ""
   "figures/Methods_Fig2.png" 1585597185 68336 dda06705a973d8b04a193d1cd5a2b524 ""
-  "figures/Methods_Fig3.png" 1585683697 680969 6163df74eb63c2af7605f1a4f31bcca8 ""
+  "figures/Methods_Fig3_ALL_all_phenos.png" 1611276274 325858 ab84849c167d0623581af2beef483505 ""
   "figures/lab_group.png" 1584081234 2477811 fa62cf1ad623361984760076254c64fb ""
-  "main.aux" 1611183124 9198 5644968c57a47464aca1dce95ad79d90 ""
-  "main.bbl" 1611183122 5250 461399be90030d01fcf9d72d60b3d176 "bibtex main"
-  "main.out" 1611183122 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "main.tex" 1611183110 47324 8257eb86dd82e859602b84f8faaefe46 ""
+  "main.aux" 1611867557 9582 9fdafc88fc762063c4ba7ba2c294e168 ""
+  "main.bbl" 1611867553 5250 461399be90030d01fcf9d72d60b3d176 "bibtex main"
+  "main.out" 1611867554 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "main.tex" 1611867547 49294 221647dc04dd45bce0c40be862ded167 ""
   "rilabRxiv.cls" 1585688339 9442 cc3269dc2593a0fceb0a087be70fd610 ""
   (generated)
-  "main.pdf"
-  "main.log"
-  "main.aux"
   "main.out"
+  "main.pdf"
+  "main.aux"
+  "main.log"
