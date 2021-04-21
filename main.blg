@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: genetics.bst
 Database file #1: magic_tex.bib
-You've used 14 entries,
+You've used 56 entries,
             2762 wiz_defined-function locations,
-            717 strings with 9591 characters,
-and the built_in function-call counts, 11906 in all, are:
-= -- 944
-> -- 1187
-< -- 2
-+ -- 466
-- -- 389
-* -- 1370
-:= -- 2083
-add.period$ -- 28
-call.type$ -- 14
-change.case$ -- 230
-chr.to.int$ -- 14
-cite$ -- 14
-duplicate$ -- 336
-empty$ -- 511
-format.name$ -- 407
-if$ -- 2230
+            988 strings with 23341 characters,
+and the built_in function-call counts, 44875 in all, are:
+= -- 3653
+> -- 4247
+< -- 8
++ -- 1652
+- -- 1358
+* -- 5015
+:= -- 7730
+add.period$ -- 112
+call.type$ -- 56
+change.case$ -- 818
+chr.to.int$ -- 56
+cite$ -- 56
+duplicate$ -- 1402
+empty$ -- 2051
+format.name$ -- 1420
+if$ -- 8576
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 14
-newline$ -- 45
-num.names$ -- 56
-pop$ -- 198
+missing$ -- 55
+newline$ -- 171
+num.names$ -- 224
+pop$ -- 705
 preamble$ -- 1
-purify$ -- 216
+purify$ -- 763
 quote$ -- 0
-skip$ -- 250
+skip$ -- 1089
 stack$ -- 0
-substring$ -- 440
-swap$ -- 119
-text.length$ -- 0
+substring$ -- 1780
+swap$ -- 523
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 126
+type$ -- 504
 warning$ -- 0
-while$ -- 58
+while$ -- 228
 width$ -- 0
-write$ -- 156
+write$ -- 618

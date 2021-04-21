@@ -1,30 +1,67 @@
-\begin{thebibliography}{14}
+\begin{thebibliography}{56}
+
+\bibitem[{Aulchenko {\em et~al.\/}}(2007){Aulchenko, de~Koning, {\rm and}
+  Haley}]{Aulchenko}
+{Aulchenko, Y.~S., D.-J. de~Koning, {\rm and} C.~Haley}, 2007 Genomewide rapid
+  association using mixed model and regression: A fast and simple method for
+  genomewide pedigree-based quantitative trait loci association analysis.
+  Genetics {\bf 177}: 577--585.
 
 \bibitem[{Aylor {\em et~al.\/}}(2011){Aylor, Valdar, Foulds-Mathes, Buus,
   Verdugo, Baric, Ferris, Frelinger, Heise, Frieman, Gralinski, Bell, Didion,
   Hua, Nehrenberg, Powell, Steigerwalt, Xie, Kelada, Collins, Yang, Schwartz,
   Branstetter, Chesler, Miller, Spence, Liu, McMillan, Sarkar, Wang, Wang,
   Zhang, Broman, Korstanje, Durrant, Mott, Iraqi, Pomp, Threadgill,
-  Pardo-Manuel~de Villena, {\rm and} Churchill}]{RN31}
+  Pardo-Manuel~de Villena, {\rm and} Churchill}]{Aylor}
 {Aylor, D.~L., W.~Valdar, W.~Foulds-Mathes, R.~J. Buus, R.~A. Verdugo, {\em
   et~al.\/}}, 2011 Genetic analysis of complex traits in the emerging
   collaborative cross. Genome Research {\bf 21}: 1213--1222.
 
+\bibitem[{Bardol {\em et~al.\/}}(2013){Bardol, Ventelon, Mangin, Jasson,
+  Loywick, Couton, Derue, Blanchard, Charcosset, {\rm and} Moreau}]{Bardol}
+{Bardol, N., M.~Ventelon, B.~Mangin, S.~Jasson, V.~Loywick, {\em et~al.\/}},
+  2013 Combined linkage and linkage disequilibrium qtl mapping in multiple
+  families of maize (zea mays l.) line crosses highlights complementarities
+  between models based on parental haplotype and single locus polymorphism.
+  Theoretical and applied genetics {\bf 126}: 2717--2736.
+
+\bibitem[{Bauer {\em et~al.\/}}(2013){Bauer, Falque, Walter, Bauland, Camisan,
+  Campo, Meyer, Ranc, Rincent, Schipprack, Altmann, Flament, Melchinger, Menz,
+  Moreno-González, Ouzunova, Revilla, Charcosset, Martin, {\rm and}
+  Schön}]{Bauer}
+{Bauer, E., M.~Falque, H.~Walter, C.~Bauland, C.~Camisan, {\em et~al.\/}}, 2013
+  Intraspecific variation of recombination rate in maize. Genome Biology {\bf
+  14}: R103.
+
 \bibitem[{Beavis {\em et~al.\/}}(1991){Beavis, Grant, Albertsen, {\rm and}
-  Fincher}]{RN1}
+  Fincher}]{Beavis}
 {Beavis, W.~D., D.~Grant, M.~Albertsen, {\rm and} R.~Fincher}, 1991
   Quantitative trait loci for plant height in four maize populations and their
   associations with qualitative genetic loci. Theoretical and Applied Genetics
   {\bf 83}: 141--145.
 
+\bibitem[{Bink {\em et~al.\/}}(2012){Bink, Totir, ter Braak, Winkler, Boer,
+  {\rm and} Smith}]{Bink}
+{Bink, M.~C., L.~R. Totir, C.~J. ter Braak, C.~R. Winkler, M.~P. Boer, {\em
+  et~al.\/}}, 2012 Qtl linkage analysis of connected populations using
+  ancestral marker and pedigree information. Theoretical and Applied Genetics
+  {\bf 124}: 1097--1113.
+
+\bibitem[{Bouchet {\em et~al.\/}}(2013){Bouchet, Servin, Bertin, Madur, Combes,
+  Dumas, Brunel, Laborde, Charcosset, {\rm and} Nicolas}]{Bouchet}
+{Bouchet, S., B.~Servin, P.~Bertin, D.~Madur, V.~Combes, {\em et~al.\/}}, 2013
+  Adaptation of maize to temperate climates: mid-density genome-wide
+  association genetics and diversity patterns reveal key genomic regions, with
+  a major contribution of the vgt2 (zcn8) locus. PLoS One {\bf 8}.
+
 \bibitem[{Broman {\em et~al.\/}}(2019){Broman, Gatti, Simecek, Furlotte, Prins,
-  Sen, Yandell, {\rm and} Churchill}]{RN2}
+  Sen, Yandell, {\rm and} Churchill}]{Broman}
 {Broman, K.~W., D.~M. Gatti, P.~Simecek, N.~A. Furlotte, P.~Prins, {\em
   et~al.\/}}, 2019 R/qtl2: Software for mapping quantitative trait loci with
   high-dimensional data and multiparent populations. Genetics {\bf 211}:
   495--502.
 
-\bibitem[{Browning {\rm and} Browning}(2013)]{Browning459}
+\bibitem[{Browning {\rm and} Browning}(2013)]{Browning}
 {Browning, B.~L. {\rm and} S.~R. Browning}, 2013 Improving the accuracy and
   efficiency of identity-by-descent detection in population data. Genetics {\bf
   194}: 459--471.
@@ -33,66 +70,314 @@
   Brown, Browne, Ersoz, Flint-Garcia, Garcia, Glaubitz, Goodman, Harjes, Guill,
   Kroon, Larsson, Lepak, Li, Mitchell, Pressoir, Peiffer, Rosas, Rocheford,
   Romay, Romero, Salvo, Villeda, Sofia~da Silva, Sun, Tian, Upadyayula, Ware,
-  Yates, Yu, Zhang, Kresovich, {\rm and} McMullen}]{RN3}
+  Yates, Yu, Zhang, Kresovich, {\rm and} McMullen}]{Buckler}
 {Buckler, E.~S., J.~B. Holland, P.~J. Bradbury, C.~B. Acharya, P.~J. Brown,
   {\em et~al.\/}}, 2009 The genetic architecture of maize flowering time.
   Science {\bf 325}: 714--718.
 
+\bibitem[{Castelletti {\em et~al.\/}}(2014){Castelletti, Tuberosa, Pindo, {\rm
+  and} Salvi}]{Castelletti}
+{Castelletti, S., R.~Tuberosa, M.~Pindo, {\rm and} S.~Salvi}, 2014 A mite
+  transposon insertion is associated with differential methylation at the maize
+  flowering time qtl vgt1. G3: Genes, Genomes, Genetics {\bf 4}: 805--812.
+
+\bibitem[{Chardon {\em et~al.\/}}(2004){Chardon, Virlon, Moreau, Falque, Joets,
+  Decousset, Murigneux, {\rm and} Charcosset}]{Chardon}
+{Chardon, F., B.~Virlon, L.~Moreau, M.~Falque, J.~Joets, {\em et~al.\/}}, 2004
+  Genetic architecture of flowering time in maize as inferred from quantitative
+  trait loci meta-analysis and synteny conservation with the rice genome.
+  Genetics {\bf 168}: 2169--2185.
+
 \bibitem[{Dell’Acqua {\em et~al.\/}}(2015){Dell’Acqua, Gatti, Pea,
   Cattonaro, Coppens, Magris, Hlaing, Aung, Nelissen, Baute, Frascaroli,
-  Churchill, Inzé, Morgante, {\rm and} Pè}]{RN4}
+  Churchill, Inzé, Morgante, {\rm and} Pè}]{DellAcqua}
 {Dell’Acqua, M., D.~M. Gatti, G.~Pea, F.~Cattonaro, F.~Coppens, {\em
   et~al.\/}}, 2015 Genetic properties of the magic maize population: a new
   platform for high definition qtl mapping in zea mays. Genome Biology {\bf
   16}: 167.
 
+\bibitem[{Ganal {\em et~al.\/}}(2011){Ganal, Durstewitz, Polley, Bérard,
+  Buckler, Charcosset, Clarke, Graner, Hansen, Joets, Le~Paslier, McMullen,
+  Montalent, Rose, Schön, Sun, Walter, Martin, {\rm and} Falque}]{Ganal}
+{Ganal, M.~W., G.~Durstewitz, A.~Polley, A.~Bérard, E.~S. Buckler, {\em
+  et~al.\/}}, 2011 A large maize (zea mays l.) snp genotyping array:
+  Development and germplasm genotyping, and genetic mapping to compare with the
+  b73 reference genome. PLOS ONE {\bf 6}: e28334.
+
+\bibitem[{Garin {\em et~al.\/}}(2020){Garin, Malosetti, {\rm and} van
+  Eeuwijk}]{Garin2}
+{Garin, V., M.~Malosetti, {\rm and} F.~van Eeuwijk}, 2020 Multi-parent
+  multi-environment qtl analysis: an illustration with the eu-nam flint
+  population. Theoretical and Applied Genetics {\bf 133}: 2627--2638.
+
+\bibitem[{Garin {\em et~al.\/}}(2017){Garin, Wimmer, Mezmouk, Malosetti, {\rm
+  and} van Eeuwijk}]{Garin}
+{Garin, V., V.~Wimmer, S.~Mezmouk, M.~Malosetti, {\rm and} F.~van Eeuwijk},
+  2017 How do the type of qtl effect and the form of the residual term
+  influence qtl detection in multi-parent populations? a case study in the
+  maize eu-nam population. Theoretical and Applied Genetics {\bf 130}:
+  1753--1764.
+
+\bibitem[{Giraud {\em et~al.\/}}(2017){Giraud, Bauland, Falque, Madur, Combes,
+  Jamin, Monteil, Laborde, Palaffre, Gaillard, Blanchard, Charcosset, {\rm and}
+  Moreau}]{Giraud2}
+{Giraud, H., C.~Bauland, M.~Falque, D.~Madur, V.~Combes, {\em et~al.\/}}, 2017
+  Linkage analysis and association mapping qtl detection models for hybrids
+  between multiparental populations from two heterotic groups: Application to
+  biomass production in maize (zea mays l.). G3 Genes|Genomes|Genetics {\bf 7}:
+  3649--3657.
+
+\bibitem[{Giraud {\em et~al.\/}}(2014){Giraud, Lehermeier, Bauer, Falque,
+  Segura, Bauland, Camisan, Campo, Meyer, Ranc, Schipprack, Flament,
+  Melchinger, Menz, Moreno-González, Ouzunova, Charcosset, Schön, {\rm and}
+  Moreau}]{Giraud}
+{Giraud, H., C.~Lehermeier, E.~Bauer, M.~Falque, V.~Segura, {\em et~al.\/}},
+  2014 Linkage disequilibrium with linkage analysis of multiline crosses
+  reveals different multiallelic qtl for hybrid performance in the flint and
+  dent heterotic groups of maize. Genetics {\bf 198}: 1717--1734.
+
+\bibitem[{Guo {\em et~al.\/}}(2018){Guo, Wang, Zhao, Huang, Li, Li, Yang, York,
+  Xue, Xu, Liang, Chen, Doebley, {\rm and} Tian}]{Guo}
+{Guo, L., X.~Wang, M.~Zhao, C.~Huang, C.~Li, {\em et~al.\/}}, 2018 Stepwise
+  cis-regulatory changes in zcn8 contribute to maize flowering-time adaptation.
+  Current Biology {\bf 28}: 3005--3015.e4.
+
+\bibitem[{Gupta {\em et~al.\/}}(2021){Gupta, Harkess, Soble, Van~Etten,
+  Leebens-Mack, {\rm and} Baucom}]{Gupta}
+{Gupta, S., A.~Harkess, A.~Soble, M.~Van~Etten, J.~Leebens-Mack, {\em
+  et~al.\/}}, 2021 Inter-chromosomal linkage disequilibrium and linked fitness
+  cost loci influence the evolution of nontarget site herbicide resistance in
+  an agricultural weed. bioRxiv p. 2021.04.04.438381.
+
+\bibitem[{Hench {\em et~al.\/}}(2019){Hench, Vargas, H{\oe}ppner, McMillan,
+  {\rm and} Puebla}]{Hench}
+{Hench, K., M.~Vargas, M.~P. H{\oe}ppner, W.~O. McMillan, {\rm and} O.~Puebla},
+  2019 Inter-chromosomal coupling between vision and pigmentation genes during
+  genomic divergence. Nature Ecology & Evolution {\bf 3}: 657--667.
+
+\bibitem[{H{\'e}rault {\em et~al.\/}}(2018){H{\'e}rault, Damon, Cherel, {\rm
+  and} Le~Roy}]{Herault}
+{H{\'e}rault, F., M.~Damon, P.~Cherel, {\rm and} P.~Le~Roy}, 2018 Combined gwas
+  and ldla approaches to improve genome-wide quantitative trait loci detection
+  affecting carcass and meat quality traits in pig. Meat Science {\bf 135}:
+  148--158.
+
 \bibitem[{Highfill {\em et~al.\/}}(2016){Highfill, Reeves, {\rm and}
-  Macdonald}]{RN24}
+  Macdonald}]{Highfill}
 {Highfill, C.~A., G.~A. Reeves, {\rm and} S.~J. Macdonald}, 2016 Genetic
   analysis of variation in lifespan using a multiparental advanced intercross
   drosophila mapping population. BMC Genetics {\bf 17}: 113.
 
 \bibitem[{Huang {\em et~al.\/}}(2012){Huang, George, Forrest, Kilian, Hayden,
-  Morell, {\rm and} Cavanagh}]{RN5}
+  Morell, {\rm and} Cavanagh}]{Huang}
 {Huang, B.~E., A.~W. George, K.~L. Forrest, A.~Kilian, M.~J. Hayden, {\em
   et~al.\/}}, 2012 A multiparent advanced generation inter-cross population for
   genetic analysis in wheat. Plant Biotechnology Journal {\bf 10}: 826--839.
 
-\bibitem[{Martinez {\em et~al.\/}}(2016){Martinez, Soriano, Tuberosa,
-  Koumproglou, Jahrmann, {\rm and} Salvi}]{RN7}
-{Martinez, A.~K., J.~M. Soriano, R.~Tuberosa, R.~Koumproglou, T.~Jahrmann, {\em
-  et~al.\/}}, 2016 Yield qtlome distribution correlates with gene density in
-  maize. Plant Science {\bf 242}: 300--309.
+\bibitem[{Huang {\em et~al.\/}}(2015){Huang, Verbyla, Verbyla, Raghavan, Singh,
+  Gaur, Leung, Varshney, {\rm and} Cavanagh}]{Huang2}
+{Huang, B.~E., K.~L. Verbyla, A.~P. Verbyla, C.~Raghavan, V.~K. Singh, {\em
+  et~al.\/}}, 2015 Magic populations in crops: current status and future
+  prospects. Theoretical and Applied Genetics {\bf 128}: 999--1017.
+
+\bibitem[{Huang {\em et~al.\/}}(2018){Huang, Sun, Xu, Chen, Liang, Wang, Xu,
+  Tian, Wang, Li, Wu, Yang, Jin, Doebley, {\rm and} Tian}]{Huang3}
+{Huang, C., H.~Sun, D.~Xu, Q.~Chen, Y.~Liang, {\em et~al.\/}}, 2018
+  \emph{ZmCCT9} enhances maize adaptation to higher latitudes. Proceedings of
+  the National Academy of Sciences {\bf 115}: E334--E341.
+
+\bibitem[{Jansen {\em et~al.\/}}(2003){Jansen, Jannink, {\rm and}
+  Beavis}]{Jansen}
+{Jansen, R.~C., J.-L. Jannink, {\rm and} W.~D. Beavis}, 2003 Mapping
+  quantitative trait loci in plant breeding populations. Crop Science {\bf 43}:
+  829--834.
+
+\bibitem[{Jiao {\em et~al.\/}}(2017){Jiao, Peluso, Shi, Liang, Stitzer, Wang,
+  Campbell, Stein, Wei, Chin, Guill, Regulski, Kumari, Olson, Gent, Schneider,
+  Wolfgruber, May, Springer, Antoniou, McCombie, Presting, McMullen,
+  Ross-Ibarra, Dawe, Hastie, Rank, {\rm and} Ware}]{Jiao}
+{Jiao, Y., P.~Peluso, J.~Shi, T.~Liang, M.~C. Stitzer, {\em et~al.\/}}, 2017
+  Improved maize reference genome with single-molecule technologies. Nature
+  {\bf 546}: 524.
+
+\bibitem[{Jourjon {\em et~al.\/}}(2004){Jourjon, Jasson, Marcel, Ngom, {\rm
+  and} Mangin}]{Jourjon}
+{Jourjon, M.-F., S.~Jasson, J.~Marcel, B.~Ngom, {\rm and} B.~Mangin}, 2004
+  Mcqtl: multi-allelic qtl mapping in multi-cross design. Bioinformatics {\bf
+  21}: 128--130.
+
+\bibitem[{Kover {\em et~al.\/}}(2009){Kover, Valdar, Trakalo, Scarcelli,
+  Ehrenreich, Purugganan, Durrant, {\rm and} Mott}]{Kover}
+{Kover, P.~X., W.~Valdar, J.~Trakalo, N.~Scarcelli, I.~M. Ehrenreich, {\em
+  et~al.\/}}, 2009 A multiparent advanced generation inter-cross to fine-map
+  quantitative traits in arabidopsis thaliana. PLoS genetics {\bf 5}.
+
+\bibitem[{Kulminski}(2011)]{Kulminski}
+{Kulminski, A.~M.}, 2011 Complex phenotypes and phenomenon of genome-wide
+  inter-chromosomal linkage disequilibrium in the human genome. Experimental
+  Gerontology {\bf 46}: 979--986.
+
+\bibitem[{Lazakis {\em et~al.\/}}(2011){Lazakis, Coneva, {\rm and}
+  Colasanti}]{Lazakis}
+{Lazakis, C.~M., V.~Coneva, {\rm and} J.~Colasanti}, 2011 Zcn8 encodes a
+  potential orthologue of arabidopsis ft florigen that integrates both
+  endogenous and photoperiod flowering signals in maize. Journal of
+  Experimental Botany {\bf 62}: 4833--4842.
+
+\bibitem[{Leroux {\em et~al.\/}}(2014){Leroux, Rahmani, Jasson, Ventelon,
+  Louis, Moreau, {\rm and} Mangin}]{Leroux}
+{Leroux, D., A.~Rahmani, S.~Jasson, M.~Ventelon, F.~Louis, {\em et~al.\/}},
+  2014 Clusthaplo: a plug-in for mcqtl to enhance qtl detection using ancestral
+  alleles in multi-cross design. Theoretical and Applied Genetics {\bf 127}:
+  921--933.
+
+\bibitem[{Liang {\em et~al.\/}}(2019){Liang, Liu, Wang, Huang, Xu, Hey, Lin,
+  Li, Xu, Wu, Wang, Wu, Xia, Han, Lu, Lai, Song, Schnable, {\rm and}
+  Tian}]{Liang}
+{Liang, Y., Q.~Liu, X.~Wang, C.~Huang, G.~Xu, {\em et~al.\/}}, 2019 Zmmads69
+  functions as a flowering activator through the zmrap2.7-zcn8 regulatory
+  module and contributes to maize flowering time adaptation. New Phytologist
+  {\bf 221}: 2335--2347.
+
+\bibitem[{Malysheva-Otto {\em et~al.\/}}(2006){Malysheva-Otto, Ganal, {\rm and}
+  R{\oe}der}]{MalyshevaOtto}
+{Malysheva-Otto, L.~V., M.~W. Ganal, {\rm and} M.~S. R{\oe}der}, 2006 Analysis
+  of molecular diversity, population structure and linkage disequilibrium in a
+  worldwide survey of cultivated barley germplasm (hordeum vulgare l.). BMC
+  Genetics {\bf 7}: 6.
+
+\bibitem[{McMullen {\em et~al.\/}}(2009){McMullen, Kresovich, Villeda,
+  Bradbury, Li, Sun, Flint-Garcia, Thornsberry, Acharya, Bottoms, Brown,
+  Browne, Eller, Guill, Harjes, Kroon, Lepak, Mitchell, Peterson, Pressoir,
+  Romero, Rosas, Salvo, Yates, Hanson, Jones, Smith, Glaubitz, Goodman, Ware,
+  Holland, {\rm and} Buckler}]{McMullen}
+{McMullen, M.~D., S.~Kresovich, H.~S. Villeda, P.~Bradbury, H.~Li, {\em
+  et~al.\/}}, 2009 Genetic properties of the maize nested association mapping
+  population. Science {\bf 325}: 737--740.
+
+\bibitem[{Meuwissen {\rm and} Goddard}(2001)]{Meuwissen}
+{Meuwissen, T.~H. {\rm and} M.~E. Goddard}, 2001 Prediction of identity by
+  descent probabilities from marker-haplotypes. Genetics Selection Evolution
+  {\bf 33}: 605.
+
+\bibitem[{Navarro {\em et~al.\/}}(2017){Navarro, Willcox, Burgue{\~n}o, Romay,
+  Swarts, Trachsel, Preciado, Terron, Delgado, Vidal, {\em et~al.\/}}]{Navarro}
+{Navarro, J. A.~R., M.~Willcox, J.~Burgue{\~n}o, C.~Romay, K.~Swarts, {\em
+  et~al.\/}}, 2017 A study of allelic diversity underlying flowering-time
+  adaptation in maize landraces. Nature genetics {\bf 49}: 476.
 
 \bibitem[{Ogut {\em et~al.\/}}(2015){Ogut, Bian, Bradbury, {\rm and}
-  Holland}]{ogut2015joint}
+  Holland}]{Ogut}
 {Ogut, F., Y.~Bian, P.~J. Bradbury, {\rm and} J.~B. Holland}, 2015
   Joint-multiple family linkage analysis predicts within-family variation
   better than single-family analysis of the maize nested association mapping
   population. Heredity {\bf 114}: 552--563.
 
-\bibitem[{Runcie {\rm and} Crawford}(2019)]{RN14}
+\bibitem[{Pascual {\em et~al.\/}}(2015){Pascual, Desplat, Huang, Desgroux,
+  Bruguier, Bouchet, Le, Chauchard, Verschave, {\rm and} Causse}]{Pascual}
+{Pascual, L., N.~Desplat, B.~E. Huang, A.~Desgroux, L.~Bruguier, {\em
+  et~al.\/}}, 2015 Potential of a tomato magic population to decipher the
+  genetic control of quantitative traits and detect causal variants in the
+  resequencing era. Plant Biotechnology Journal {\bf 13}: 565--577.
+
+\bibitem[{P{\'e}rez-Enciso}(2003)]{PerezEnciso}
+{P{\'e}rez-Enciso, M.}, 2003 Fine mapping of complex trait genes combining
+  pedigree and linkage disequilibrium information: A bayesian unified
+  framework. Genetics {\bf 163}: 1497--1510.
+
+\bibitem[{Petkov {\em et~al.\/}}(2005){Petkov, Graber, Churchill, DiPetrillo,
+  King, {\rm and} Paigen}]{Petkov}
+{Petkov, P.~M., J.~H. Graber, G.~A. Churchill, K.~DiPetrillo, B.~L. King, {\em
+  et~al.\/}}, 2005 Evidence of a large-scale functional organization of
+  mammalian chromosomes. PLOS Genetics {\bf 1}: e33.
+
+\bibitem[{{R Core Team}}(2017)]{R}
+{{R Core Team}}, 2017 {\em R: A Language and Environment for Statistical
+  Computing\/}. R Foundation for Statistical Computing, Vienna, Austria.
+
+\bibitem[{Rio {\em et~al.\/}}(2020){Rio, Mary-Huard, Moreau, Bauland, Palaffre,
+  Madur, Combes, {\rm and} Charcosset}]{Rio}
+{Rio, S., T.~Mary-Huard, L.~Moreau, C.~Bauland, C.~Palaffre, {\em et~al.\/}},
+  2020 Disentangling group specific qtl allele effects from genetic background
+  epistasis using admixed individuals in gwas: an application to maize
+  flowering. PLoS genetics {\bf 16}: e1008241.
+
+\bibitem[{Robbins {\em et~al.\/}}(2010){Robbins, Sim, Yang, Van~Deynze, van~der
+  Knaap, Joobeur, {\rm and} Francis}]{Robbins}
+{Robbins, M.~D., S.-C. Sim, W.~Yang, A.~Van~Deynze, E.~van~der Knaap, {\em
+  et~al.\/}}, 2010 Mapping and linkage disequilibrium analysis with a
+  genome-wide collection of snps that detect polymorphism in cultivated tomato.
+  Journal of Experimental Botany {\bf 62}: 1831--1845.
+
+\bibitem[{Rodr{\'i}guez-Zapata {\em et~al.\/}}(2021){Rodr{\'i}guez-Zapata,
+  Barnes, Bl{\oe}cher-Ju{\'a}rez, Gates, Kur, Wang, Janzen, Jensen,
+  Est{\'e}vez-Palmas, Crow, Aguilar-Rangel, Demesa-Arevalo, Skopelitis,
+  P{\'a}rez-Lim{\'o}n, Stutts, Thompson, Chiu, Jackson, Fiehn, Runcie, Buckler,
+  Ross-Ibarra, Hufford, Sawers, {\rm and}
+  Rell{\'a}n-{\'a}lvarez}]{RodriguezZapata}
+{Rodr{\'i}guez-Zapata, F., A.~C. Barnes, K.~A. Bl{\oe}cher-Ju{\'a}rez,
+  D.~Gates, A.~Kur, {\em et~al.\/}}, 2021 Teosinte introgression modulates
+  phosphatidylcholine levels and induces early maize flowering time. bioRxiv p.
+  2021.01.25.426574.
+
+\bibitem[{Runcie {\rm and} Crawford}(2019)]{Runcie}
 {Runcie, D.~E. {\rm and} L.~Crawford}, 2019 Fast and flexible linear mixed
   models for genome-wide genetics. PLOS Genetics {\bf 15}: e1007978.
 
+\bibitem[{Salvi {\em et~al.\/}}(2007){Salvi, Sponza, Morgante, Tomes, Niu,
+  Fengler, Meeley, Ananiev, Svitashev, Bruggemann, {\em et~al.\/}}]{Salvi}
+{Salvi, S., G.~Sponza, M.~Morgante, D.~Tomes, X.~Niu, {\em et~al.\/}}, 2007
+  Conserved noncoding genomic sequences associated with a flowering-time
+  quantitative trait locus in maize. Proceedings of the National Academy of
+  Sciences {\bf 104}: 11376--11381.
+
+\bibitem[{Steinhoff {\em et~al.\/}}(2012){Steinhoff, Liu, Reif, Della~Porta,
+  Ranc, {\rm and} W{\"u}rschum}]{Steinhoff}
+{Steinhoff, J., W.~Liu, J.~C. Reif, G.~Della~Porta, N.~Ranc, {\em et~al.\/}},
+  2012 Detection of qtl for flowering time in multiple families of elite maize.
+  Theoretical and applied genetics {\bf 125}: 1539--1551.
+
 \bibitem[{Unterseer {\em et~al.\/}}(2014){Unterseer, Bauer, Haberer, Seidel,
   Knaak, Ouzunova, Meitinger, Strom, Fries, Pausch, Bertani, Davassi, Mayer,
-  {\rm and} Schön}]{RN13}
+  {\rm and} Schön}]{Unterseer}
 {Unterseer, S., E.~Bauer, G.~Haberer, M.~Seidel, C.~Knaak, {\em et~al.\/}},
   2014 A powerful tool for genome analysis in maize: development and evaluation
   of the high density 600 k snp genotyping array. BMC Genomics {\bf 15}: 823.
 
 \bibitem[{Wallace {\em et~al.\/}}(2014){Wallace, Bradbury, Zhang, Gibon, Stitt,
-  {\rm and} Buckler}]{RN8}
+  {\rm and} Buckler}]{Wallace}
 {Wallace, J.~G., P.~J. Bradbury, N.~Zhang, Y.~Gibon, M.~Stitt, {\em et~al.\/}},
   2014 Association mapping across numerous traits reveals patterns of
   functional variation in maize. PLOS Genetics {\bf 10}: e1004845.
 
-\bibitem[{Yu {\em et~al.\/}}(2006){Yu, Pressoir, Briggs, Vroh~Bi, Yamasaki,
-  Doebley, McMullen, Gaut, Nielsen, Holland, Kresovich, {\rm and}
-  Buckler}]{RN11}
-{Yu, J., G.~Pressoir, W.~H. Briggs, I.~Vroh~Bi, M.~Yamasaki, {\em et~al.\/}},
-  2006 A unified mixed-model method for association mapping that accounts for
-  multiple levels of relatedness. Nature Genetics {\bf 38}: 203--208.
+\bibitem[{Wang {\em et~al.\/}}(2017){Wang, Beissinger, Lorant, Ross-Ibarra,
+  Ross-Ibarra, {\rm and} Hufford}]{Li5}
+{Wang, L., T.~M. Beissinger, A.~Lorant, C.~Ross-Ibarra, J.~Ross-Ibarra, {\em
+  et~al.\/}}, 2017 The interplay of demography and selection during maize
+  domestication and expansion. Genome Biology {\bf 18}: 215.
+
+\bibitem[{Wang {\em et~al.\/}}(2006){Wang, Yao, Zhang, {\rm and} Zheng}]{Wang}
+{Wang, Y., J.~Yao, Z.~Zhang, {\rm and} Y.~Zheng}, 2006 The comparative analysis
+  based on maize integrated qtl map and meta-analysis of plant height qtls.
+  Chinese Science Bulletin {\bf 51}: 2219--2230.
+
+\bibitem[{Xu {\em et~al.\/}}(2020){Xu, Lyu, Li, Liu, Wang, Zhang, Springer,
+  Ross-Ibarra, {\rm and} Yang}]{Xu}
+{Xu, G., J.~Lyu, Q.~Li, H.~Liu, D.~Wang, {\em et~al.\/}}, 2020 Evolutionary and
+  functional genomics of dna methylation in maize domestication and
+  improvement. Nature Communications {\bf 11}: 5539.
+
+\bibitem[{Yu {\em et~al.\/}}(2008){Yu, Holland, McMullen, {\rm and}
+  Buckler}]{Yu2}
+{Yu, J., J.~B. Holland, M.~D. McMullen, {\rm and} E.~S. Buckler}, 2008 Genetic
+  design and statistical power of nested association mapping in maize. Genetics
+  {\bf 178}: 539--551.
+
+\bibitem[{Ziyatdinov {\em et~al.\/}}(2018){Ziyatdinov, Vázquez-Santiago,
+  Brunel, Martinez-Perez, Aschard, {\rm and} Soria}]{Ziyatdinov}
+{Ziyatdinov, A., M.~Vázquez-Santiago, H.~Brunel, A.~Martinez-Perez,
+  H.~Aschard, {\em et~al.\/}}, 2018 lme4qtl: linear mixed models with flexible
+  covariance structure for genetic studies of related individuals. BMC
+  Bioinformatics {\bf 19}: 68.
 
 \end{thebibliography}
