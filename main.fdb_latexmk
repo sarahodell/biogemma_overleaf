@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1618609393 "main.aux" "main.bbl" "main" 1618609409
+["bibtex main"] 1619045319 "main.aux" "main.bbl" "main" 1619045331
   "./genetics.bst" 1584081234 27895 04f1bcce70c2bf2d315cac3f3db91b8b ""
-  "magic_tex.bib" 1618522142 74374 d22ee0aaebc38095963295380c33abd9 ""
-  "main.aux" 1618609408 23356 cdda358d92a2dd4fb491525776f5cec6 ""
+  "magic_tex.bib" 1619041930 75168 5a4e1cf8aff2898379cff0dac0e27732 ""
+  "main.aux" 1619045330 23260 5238c559eb67abff0d6655d8ceff55ad ""
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1618609394 "main.tex" "main.pdf" "main" 1618609409
+  "main.blg"
+["pdflatex"] 1619045319 "main.tex" "main.pdf" "main" 1619045331
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1480098688 4484 b828043cbd581d289d955903c1339981 ""
@@ -38,6 +38,7 @@
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm" 1480098713 1828 bb8add3bd19426549f9267c88b0cb8bd ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm" 1480098713 1012 955c4ca523d7827d33db91a33412b048 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm" 1480098713 1316 b4037e9c09961a72f8476628774e1ec1 ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1480098733 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1480098733 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb" 1480098742 15213 d999bbe8bd9c8f231f3f66a737c76478 ""
@@ -238,18 +239,18 @@
   "figures/Methods_Fig3_alltraits.png" 1614104260 333400 d32dd4a4db9d82c4f1167520013a1ded ""
   "figures/circos.png" 1613601348 1652822 72e3ba3c4258ae004d0823ba5bb1cbea ""
   "figures/environment_QTL_by_method.png" 1614364377 27949 6f0984e1676befee5664bd53854703a7 ""
-  "figures/figure2.png" 1618525085 26369 ba0c0a77f5ef1596495baeffe1cec184 ""
+  "figures/figure2.png" 1619045161 26696 7acc12bbccfa5303db87d8fb6e0adf52 ""
   "figures/ft_overlap_enrichment_density.png" 1602539285 24307 fcbfe96f40530c165336d1a59fa5c5cb ""
   "figures/male_flowering_d6_ALL_qDTA8_BLUP_founder_effect_sizes_lme4qtl.png" 1613602606 55265 a602ea3f9c7c74dbf2fa67d998eacb68 ""
   "figures/pve_contrasts.png" 1615582497 18387 ed8ceae52a96285a6e18284503aac6af ""
   "figures/threshold_by_method_counts.png" 1614371332 24971 1508fc7c939270c3c807514a67c31321 ""
-  "main.aux" 1618609408 23356 cdda358d92a2dd4fb491525776f5cec6 ""
-  "main.bbl" 1618609394 20891 59fb1a47cf80b12d96075f29ac747ca3 "bibtex main"
-  "main.out" 1618609397 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "main.tex" 1618609333 73761 dc13e9dc093c320264f317725ac8c4db ""
+  "main.aux" 1619045330 23260 5238c559eb67abff0d6655d8ceff55ad ""
+  "main.bbl" 1619045319 20891 59fb1a47cf80b12d96075f29ac747ca3 "bibtex main"
+  "main.out" 1619045322 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "main.tex" 1619042223 76661 e3c8485b1578d41135a8844cb2e33efc ""
   "rilabRxiv.cls" 1585688339 9442 cc3269dc2593a0fceb0a087be70fd610 ""
   (generated)
+  "main.pdf"
+  "main.aux"
   "main.out"
   "main.log"
-  "main.aux"
-  "main.pdf"
