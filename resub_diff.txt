@@ -1,0 +1,1253 @@
+1,2c1,7
+< \documentclass[9pt,twocolumn,twoside]{gsag3jnl}
+< \usepackage{epstopdf}
+---
+> \documentclass[article,9pt,twocolumn,twoside]{rilabRxiv}
+> % Use the documentclass option 'lineno' to view line numbers
+> \setlength{\marginparwidth}{2cm}
+> \usepackage[textsize=tiny,colorinlistoftodos]{todonotes} % comments in margins
+> \definecolor{cornflowerblue}{rgb}{0.39, 0.58, 0.93}
+> \usepackage{blindtext}
+> 
+4,14c9
+< \usepackage{setspace}
+< \usepackage{multirow}
+< \usepackage{longtable}
+< \usepackage{caption}
+< \articletype{mp} % article type
+< % {inv} Investigations
+< % {msr} Mutant Screen Reports
+< % {gs} Genomic Selection
+< % {goi} Genetics of Immunity
+< % {gos} Genetics of Sex
+< % {mp} Multiparental Populations
+---
+> %interwordspace: \the\fontdimen2\font \\
+16,17c11,22
+< \captionsetup{justification=raggedright,singlelinecheck=false}
+< \runningtitle{G3 Journal Template on Overleaf} % For use in the footer
+---
+> %interwordstretch: \the\fontdimen3\font \\
+> 
+> %emergencystretch: \the\emergencystretch\par
+> %\blindtext
+> 
+> %%%%%%%Add comments in color
+> \newcommand{\jri}[1]{{\small \textcolor{red}{#1}}}
+> \newcommand{\citex}[1]{{\small \textcolor{red}{CITE(#1)}}}
+> \newcommand{\X}{{\textcolor{red}{X}}}
+> \newcommand{\der}{{\textcolor{purple}{X}}}
+> \newcommand{\so}[1]{{\small \textcolor{blue}{#1}}}
+> \newcommand{\ashe}{{\textcolor{green}{X}}}
+19,25d23
+< %% For the footnote.
+< %% Give the last name of the first author if only one author;
+< % \runningauthor{FirstAuthorLastname}
+< %% last names of both authors if there are two authors;
+< % \runningauthor{FirstAuthorLastname and SecondAuthorLastname}
+< %% last name of the first author followed by et al, if more than two authors.
+< \runningauthor{Odell \textit{et al.}}
+26a25,29
+> 
+> \newcolumntype{b}{X}
+> \newcolumntype{s}{>{\hsize=.5\hsize}X}
+> 
+> % Set supplement numbers to S and start counting newly
+33a37
+> 
+37,39c41,45
+< \author[2,4]{Hudson, A. I.}
+< \author[3]{Praud, S.}
+< \author[2,4,5]{Ross-Ibarra, J.}
+---
+> \author[2,3]{Hudson, A. I.}
+> \author[4]{Praud, S.}
+> \author[4]{Dubreuil, P.}
+> \author[4]{Tixier, M.-H.}
+> \author[2,3,5]{Ross-Ibarra, J.}
+44,45c50,51
+< \affil[3]{Limagrain, Chappes, France}
+< \affil[4]{Center for Population Biology, University of California, Davis, CA, USA}
+---
+> \affil[3]{Center for Population Biology, University of California, Davis, CA, USA}
+> \affil[4]{Limagrain, Chappes, France}
+48,49d53
+< \correspondingauthoraffiliation[$\ast$]{Dept. of Plant Sciences and Dept. of Evolution and Ecology, University of California, Davis, CA, USA
+< E-mail: sgodell@ucdavis.edu}
+50a55,67
+> \keywords{ MAGIC, QTL, linkage mapping, association mapping }
+> 
+> \runningtitle{Running title} % For use in the footer
+> 
+> %% For the footnote.
+> %% Give the last name of the first author if only one author;
+> % \runningauthor{Odell}
+> %% last names of both authors if there are two authors;
+> % \runningauthor{FirstAuthorLastname and SecondAuthorLastname}
+> %% last name of the first author followed by et al, if more than two authors.
+> \runningauthor{Odell \textit{et al.}}
+> 
+> %%% Abstract %%%%%%%%%%%%%%%%%%
+53,59c70,77
+< Methods such as bi-parental QTL mapping and genome-wide association studies (GWAS) each have their own advantages and limitations.
+< Multi-parent advanced generation inter-crossing (MAGIC) populations contain more recombination events and genetic diversity than bi-parental mapping populations and are better able to estimate effect sizes of rare alleles than association mapping populations.
+< Here we discuss the results of using a MAGIC population of doubled haploid (DH) maize lines created from 16 diverse founders to perform QTL mapping.
+< We compare three models that assume bi-allelic, founder, and ancestral haplotype allelic states for QTL.
+< The three methods have differing power to detect QTL for a variety of agronomic traits.
+< Although the founder approach finds the most QTL, all methods are able to find unique  QTL, suggesting that each model has advantages for traits with different  genetic architectures.
+< A closer look at a well-characterized flowering time QTL, qDTA8, which contains \emph{vgt1}, highlights the strengths and weaknesses of each method and suggests a potential epistatic interaction.
+---
+>  Methods such as bi-parental QTL mapping and genome-wide association studies (GWAS) each have their own advantages and limitations.
+>  Multi-parent advanced generation inter-crossing (MAGIC) populations contain more recombination events and genetic diversity than bi-parental mapping populations and reduce the confounding effect of population structure that is an issue in association mapping populations.
+>  Here we discuss the results of using a MAGIC population of doubled haploid (DH) maize lines created from 16 diverse founders to perform QTL mapping.
+>  We compare three models that assume using bi-allelic, founder, and ancestral haplotype allelic states for QTL.
+>  %array to those found using estimates of the probability of ancestry from individual founders and probability of assignment to specific haplotypes. % generated by determining the regions of the MAGIC DH lines that were derived from the 16 founders and by identifying regions of identity-by-descent (IBD) between the 16 founders, respectively.
+>   The three methods have differing power to detect QTL for a variety of agronomic traits.
+>   Although the founder approach finds the most QTL, all methods are able to find unique  QTL, suggesting that each model has advantages for traits with different  genetic architectures.
+>    A closer look at a well-characterized flowering time QTL, qDTA8, which contains \emph{vgt1}, highlights the strengths and weaknesses of each method and suggests a potential epistatic interaction.
+61d78
+< \end{abstract}
+63d79
+< \keywords{MAGIC; QTL; linkage mapping; association mapping}
+65c81,83
+< \dates{\rec{July xx, 2021} \acc{xx xx, 2021}}
+---
+> \end{abstract}
+> %%%%%%%%%%%%%%%%%%%%%%%%%%
+> 
+67a86,87
+> \setboolean{displaycopyright}{true}
+> 
+72,74c92,96
+< %\slugnote
+< \firstpagefootnote
+< \vspace{-13pt}% Only used for adjusting extra space in the left column of the first page
+---
+> %\firstpagefootnote
+> \correspondingauthoraffiliation{
+> Dept. of Plant Sciences and Dept. of Evolution and Ecology, University of California, Davis, CA, USA
+> E-mail: sgodell@ucdavis.edu}
+> \vspace{-11pt}%
+77,79c99,101
+< \linenumbers
+< The study of quantitative genetics requires the ability to link differences in phenotype to genotypic variation.
+< Natural and artificial selection act on phenotypes, but only heritable phenotypic variation will result in changes in population means.
+---
+> %\subsection{First part}
+> \lettrine[lines=2]{\color{color2}T}{}he study of quantitative genetics requires the ability to link differences in phenotype to genotypic variation.
+>  Natural and artificial selection act on phenotypes, but only heritable phenotypic variation will result in changes in population means.
+87,88c109,110
+< In particular, different types of populations tend to vary in two main characteristics: (1) their ability to capture genetic diversity and (2) their power to detect QTL of small effect.
+< Multi-parent Advanced Generation Intercross (MAGIC) populations have been used in breeding to increase the genetic diversity included in a mapping population compared to biparental populations in multiple model organisms. In plants, MAGIC populations have been created for maize \citep{DellAcqua}, wheat \citep{Huang}, tomato \citep{Pascual}, and Arabidopsis \citep{Kover,Huang4}, among others. For animal models, populations such as the Collaborative Cross in mice \citep{Churchill,Aylor} and the \emph{Drosophila} Synthetic Population Resource (DSPR) \citep{King} have likewise been created.
+---
+> In particular, they tend to vary in three main characteristics: (1) their ability to capture genetic diversity, (2) their power to detect QTL of small effect, and (3) their population size.
+> Multi-parent Advanced Generation Intercross (MAGIC) populations have been used in breeding to increase the genetic diversity included in a mapping population compared to biparental populations \citep{Huang,DellAcqua, Highfill, Aylor, Kover, Pascual}.
+90a113
+> Lastly, a MAGIC population avoids confounding due to population structure that is encountered with genome-wide association studies (GWAS) because the pedigree of the lines is known.
+92,94c115,127
+< In this study, we used a MAGIC population of 344 doubled-haploid lines derived from 16 inbred maize parents developed by the company Biogemma to understand how genetic models can impact the identification of QTL.
+< Compared to previous populations in maize, this MAGIC population has a greater number of founders, and should have comparable power to larger nested mapping  populations \citep{DellAcqua,Yu2}. In addition, using doubled haploids (DHs) instead of recombinant inbred lines (RILs) removes any residual heterozygosity, ensuring that replicates are genetically identical.
+< For these reasons, the Biogemma MAGIC population that we present here has great potential to reveal new insights into the genetic control of quantitative traits in maize.
+---
+> In this study, we used a MAGIC population of 344 doubled-haploid lines derived from 16 inbred maize parents developed by Biogemma to understand how genetic models can impact the identification of QTL.
+> %Extensive genetic resources already exist for maize, but do not possess the same diversity and statistical power as the Limagrain MAGIC population.
+> %A maize nested association mapping (NAM) population exists, consisting of RIL populations derived from 25 inbred parents crossed to B73 \citep{Yu2}.
+> %Only two inbred parents overlap between the NAM and Limagrain MAGIC populations (B73 and Oh43), and compared to the NAM, the MAGIC population can have similar power to the NAM using half the number of samples \citep{DellAcqua}.
+> %Likewise, another maize MAGIC population has previously been created, which overlaps by three parents (A632, B73, and B96) \citep{DellAcqua}.
+> %However, the previous MAGIC is derived from 8 inbred maize parents instead of 16, and consists of RILs, not doubled haploids, so some residual heterozygosity may exist.
+> Compared to previous populations in maize, this MAGIC population has a greater number of founders, reduces complexity using DH instead of recombinant inbred lines, and should have comparable power to larger nested mapping  populations \citep{DellAcqua,Yu2}.
+> For these reasons, the Biogemma MAGIC population has great potential to reveal new insights into the genetic control of quantitative traits in maize.
+> 
+> In addition to the choice of mapping population, the choice of how to represent genetic information through association and QTL mapping can impact the power of a study to detect and analyze QTL.
+> A bi-allelic model for QTL, often used in GWAS, assumes that the underlying causal variants for QTL are explained by two alleles that are segregating in the population.
+> Most commonly, genetic variation is represented as bi-allelic SNPs which segregate in the population, with each individual possessing either a reference or alternate allele.
+> With this bi-allelic model, hereafter referred to as $GWAS_{SNP}$, markers represent a small region of the chromosome that is in tight linkage disequilibrium with the genotyped SNP.
+98,100c131,133
+< \includegraphics[width=\textwidth,height=10cm]{figures/Fig1A_v2.png}
+< \caption{\textbf{The crossing scheme of the MAGIC population.}}
+< \label{fig:figure1a}
+---
+> \includegraphics[width=\textwidth,height=12cm]{figures/Methods_Fig1.png}
+> \caption{\textbf{Structure, diversity, and founder representation of the MAGIC population}(\textbf{A}) The crossing scheme of the MAGIC population. (\textbf{B}) Coverage of each founder across the population on Chromosome 10. Black line represents expected number of lines per founder with equal distribution. (\textbf{C}) Total coverage of each founder across the population as a percentage. Black line shows expectation of equal distribution (6.25\%)  (\textbf{D}) Founder probabilities for 10 MAGIC DH lines on chromosome 10 in physical distance. (\textbf{E}) Founder probabilities for 10 MAGIC DH lines on chromosome 10 in genetic distance.}
+> \label{fig:figure1}
+103,107d135
+< In addition to the choice of mapping population, the choice of how to model allelic variation can impact the power of a study to detect and analyze QTL.
+< A bi-allelic model for QTL, often used in GWAS, assumes that the underlying causal variants for QTL are explained by two alleles, usually SNPs, that are segregating in the population.
+< %Most commonly, genetic variation is represented as bi-allelic SNPs which segregate in the population, with each individual possessing either a reference or alternate allele.
+< With this bi-allelic model, hereafter referred to as $GWAS_{SNP}$, markers represent a small region of the chromosome that is in tight linkage disequilibrium with the genotyped SNP.
+< 
+109c137
+< In this model, comparable to interval mapping, rather than looking at individual SNPs, an allele becomes the founder identity of that region, or which parent of the population that segment of chromosome was derived from.
+---
+> In this model, rather than looking at individual SNPs, an allele becomes the founder identity of that region, or which parent of the population that segment of chromosome was derived from.
+111a140,148
+> %If there are more than two founders, or if not all markers segregate between two founders, one must infer the founder identity and recombination points of chromosome regions.
+> %The method of QTL mapping uses linkage blocks created from the recombination that occurred over the course of producing a mapping population.
+> %Markers are used to represent larger linked chromosome segments, and the amount of recombination and size of chromosome segments determines the resolution of any identified QTL \der{I'm not sure formally you're actually using markers. You're calling them markers, but really they're just labels for the haplotypes}.
+> 
+> 
+> %This is often done using a Hidden Markov Model (HMM). HMMs calculate the probability of being in a particular "hidden" state (here the founder identity) given the observed state (here the genotyped SNP) [].
+> %This method can also take into account a decent amount uncertainty stemming from genotyping error and other sources.
+> %[Discuss previous papers and attempts to do this]
+> %\jri{too much detail for intro. also confounds biparental mapping with founder prob. in biparental QTL these are the same, but if you just use binary SNPs as  genotype this breaks down as more parents added.}
+114a152
+> %In the case of the Limagrain MAGIC population, it seems improbable that each locus possesses 16 distinct alleles.
+115a154
+> %IBD regions are segments of the genome that are genetically similar between individuals as the result of the individuals inheriting the segment from a common ancestor.
+118c157,159
+< This has the potential to increase statistical power compared to the $QTL_F$ model by reducing the number of parameters that must be estimated by the model.
+---
+> This has the potential to increase statistical power compared to the $QTL_F$ model by reducing the number of parameters.
+> %The Limagrain MAGIC population serves a reliable standard for comparison of these models.
+> %\jri{i would really reduce the explanation here and combine this with above paragraph}
+120c161
+< Here we present a maize MAGIC population derived from 16 parents and discuss the performance of three different models for representing allelic states: bi-allelic, founder, and ancestral haplotype allelic models for detecting QTL.
+---
+> Here we present a maize MAGIC population derived from 16 parents and discuss the performance of three different models for representing allelic states: bi-allelic, founder, and ancestral haplotype allelic models for detecting QTL. %\jri{use same terms throughout, so e.g. founder probs here}
+122a164,165
+> 
+> 
+126,129c169,170
+< The MAGIC population was derived from 16 inbred maize parents representing the diversity of temperate maize (\href{run:./figures/Methods_Supplementa1.docx}{Supplemental File 1}).
+< The parents were chosen to be a mix of members of Flint and Dent heterotic groups, which are historically and genetically diverged groups that, when crossed, produce F1 plants that display hybrid vigor.
+< In addition, the founders were chosen to represent a phenotypically diverse set of flowering times for temperate maize.
+< The 16 founder lines were crossed in a funnel crossing scheme, and then the resulting synthetic population was intercrossed for 3 generations with around 1600 individuals per cycle (Figure \ref{fig:figure1a}) (\href{run:./figures/Methods_Supplementa1.docx}{Supplemental File 1}).
+---
+> The MAGIC population was derived from 16 inbred maize parents representing the diversity of European flint and U.S. dent heterotic groups.
+> The 16 founder lines were crossed in a funnel crossing scheme, and then the resulting synthetic population was intercrossed for 3 generations with around 1600 individuals per cycle (Figure \ref{fig:figure1}A) (\href{run:./figures/Methods_Supplementa1.docx}{Supplemental File 1}).
+131c172,173
+< The MAGIC DH lines were crossed to a tester MBS847 to produce 344 hybrids (Figure \ref{fig:figure1a}).
+---
+> The MAGIC DH lines were crossed to a tester MBS847 to produce 344 hybrids (Figure \ref{fig:figure1}A).
+> %Due to variation in flowering time, a subset of the lines could not be crossed to the tester.
+133c175
+< \subsection{Genotype Data}
+---
+> \subsection{Genotyping}
+136,137d177
+< Linkage disequilibrium was calculated as $R^2$ of pairwise SNPs using the software PLINK and the 600K SNP data (Figure \ref{fig:supfigure10}) \citep{Purcell}.
+< %To estimate the rate of LD decay, for the purpose of computational ease, a random subset of 6,000 SNPs were selected, and the pairwise $R^2$ value of this subset was calculated against all SNPs \.
+140,151c180,195
+< The MAGIC F1 plants were phenotyped in five different field locations in four different years, resulting in six distinct environment-years (Hudson et al. in prep).
+< The environments represent a range of latitudes and water stress, from vegetative and flowering water deficit (Nerac, 2016) to optimum well-watered conditions (Graneros, 2015).
+< In each environment we grew a minimum of 292 and a maximum of 309 of the DH lines. Each genotype was grown with two replicates in each environment.
+< In all environments, six traits were measured: grain yield (GY), plant height (PH), female flowering date (DTS), male flowering date (DTA), thousand kernel weight (TKW), and harvest grain moisture (HGM). By subtracting male flowering date from female flowering date we also obtained anthesis-silking interval (ASI).
+< For each of the lines we calculated best linear unbiased predictor (BLUP) scores for all seven phenotypes, combining measurements from all environments to get estimates of the genetic contribution to the phenotype for each MAGIC line \citep{Aulchenko}.
+< 
+< \begin{figure*}[h!]
+< \centering
+< \includegraphics[width=\textwidth,height=11cm]{figures/Methods_Fig1.png}
+< \caption{\textbf{Founder representation of the MAGIC population}(\textbf{A}) Coverage of each founder across the population on chromosome 10 as a percentage. Black line represents expected number of lines per founder with equal distribution (6.25\%). Each of the 16 founders are indicated by a color. (\textbf{B}) Total coverage of each founder across the population as a percentage. Black line shows expectation of equal distribution (6.25\%)  (\textbf{C}) Founder probabilities for 10 MAGIC DH lines on chromosome 10 in genetic distance.}
+< \label{fig:figure1}
+< \end{figure*}
+---
+> The MAGIC F1 plants were phenotyped in five different field locations in four different years, resulting in six distinct environment-years.
+> The environment-years included Blois, France in 2014 and 2017, Nerac, France in 2016, St. Paul, France in 2017, Szeged, Hungary in 2017, and Graneros, Chile in 2015.
+> In each environment-year, two plots of around 80 plants were grown for each genotype.
+> The fields in environment-years Blois, 2014, Blois, 2017, Szeged, 2017, and Graneros, 2015 all received consistent irrigation.
+> The fields in environment-years Nerac, 2016 and St. Paul, 2017 were not actively irrigated over the course of flowering.
+> Measured phenotypes included days to anthesis (DTA), days to silking (DTS), anthesis-silking interval (ASI), plant height (PH), percent harvest grain moisture (HGM), grain yield (GY), and thousand kernel weight (TKW) (adjusted to 15\% humidity), where values were averaged over plots.
+> Both flowering time phenotypes were measured as the sum of degree days since sowing with a base temperature of 6$^{\circ}$C (48$^{\circ}$F).
+> Days to anthesis was considered as the growing degree days until 50\% of plants in a plot were shedding pollen on approximately one quarter of the central tassel spike.
+> On average, around 300 of the MAGIC F1 lines were grown in each environment, with a minimum of 292 and a maximum of 309.
+> There were a total of 325 lines that had both genotype data and phenotype data from at least one environment.
+> For each of these lines we calculated best linear unbiased predictor (BLUP) scores for all seven phenotypes, combining measurements from all environments to get estimates of the genetic contribution to the phenotype for each MAGIC line \citep{Aulchenko}.
+> 
+> %\begin{equation}
+> %\label{eqn:blups}
+> % Y = X\beta + Zu + \epsilon
+> %\end{equation}
+155,157c199,200
+< We then filtered down the founder probabilities from all 503,902 sites to represent founder recombination blocks for interval mapping.
+< Markers for the $QTL_F$ approach were filtered based on linkage disequilibrium using an iterative approach where a marker was dropped if the $R^2$ value of the founder probabilities between it and the previous marker was greater than 0.95.
+< After filtering, a total of 4,578 sites were kept to represent founder recombination blocks in the MAGIC DH lines.
+---
+> SNPs used as  markers for the $QTL_F$ approach were filtered based on linkage disequilibrium using an iterative approach where a SNP was dropped if the $R^2$ value of probabilities between it and the previous SNP was greater than 0.95.
+> After filtering, a total of 4,578 sites were kept. % to represent segments of chromosomes with little recombination in the MAGIC DH lines.
+160c203
+< This was done by simulating lines using the actual crossing scheme and assessing the performance of the calc\_genoprobs function of R/qtl2 in correctly identifying the founder genotype (Figure \ref{fig:figure1}C).
+---
+> This was done by simulating lines using the actual crossing scheme and assessing the performance of the calc\_genoprobs function of R/qtl2 in correctly identifying the founder genotype (Figure \ref{fig:figure1}C \& D).
+164,171c207
+< \subsection{Test for Equal Representation of Alleles}
+< The number of lines that had a probability of a particular founder greater than 0.8 were used as  an approximation of the number of lines that had that founder at a site.
+< This observed count was compared to a null expectation of $1/16$ for equal distribution across lines (approximately 21 lines per founder)(Figure \ref{fig:figure1}B \& C).
+< We performed a $\rchi^2$ test for each site to determine if founder counts significantly deviated from null expectation.
+< We obtained a 5\% significance threshold using the $\rchi^2$ obtained from founder counts in 100 simulated populations.
+< The $\rchi^2$ tests from simulated lines were done using reconstructed genotype data pulled from the 600K genotype data of the 16 founders.
+< We then used the same methods of calculating founder probabilities with R/qtl2 used with the actual population.
+< Due to the fact that we used the inferred founder identities of the simulated lines, rather than the known founder identities, the null distribution of p-values generated from $\rchi^2$ tests of the simulated populations incorporated uncertainty of founder assignment.
+---
+> 
+183c219
+< We did this by moving along the chromosome, starting a new haplotype block when a segment of pairwise IBD between founders started or ended (Figure \ref{fig:supfigure6}).
+---
+> We did this by moving along the chromosome, starting a new haplotype block when a segment of pairwise IBD between founders started or ended (\ref{fig:supfigure6}).
+187c223
+< In certain instances, the pairs of founders that were in IBD with one another in a particular haplotype block formed an incomplete graph, where  not all founders were in IBD with all other founders (Figure \ref{fig:supfigure6}).
+---
+> In certain instances, the pairs of founders that were in IBD with one another in a particular haplotype block formed an incomplete graph, where  not all founders were in IBD with all other founders (\ref{fig:supfigure6}).
+189c225
+< 
+---
+> %For how many haplotype blocks/haplotypes was this the case?
+191c227
+< However, it is important to note that cutoffs for IBD are inherently arbitrary, and haplotypes called here do still possess genetic differences between founders, with some founders more different than others.
+---
+> However, it is important to note that haplotypes called here do still possess genetic differences between founders, with some founders more different than others.
+193c229
+< Markers for the $QTL_H$ mapping approach were filtered for LD using an iterative approach similar to $QTL_F$: for all haplotype blocks with the same number of distinct haplotypes, a marker was dropped if the correlation of haplotype probabilities between it and the previous marker was greater than 0.95.
+---
+> Markers for the $QTL_H$ mapping approach were filtered for LD using an iterative approach similar to $QTL_F$: for all haplotype blocks with the same number of distinct haplotypes, a SNP was dropped if the correlation of probabilities between it and the previous SNP was greater than 0.95.
+197c233
+< The R package GridLMM \citep{Runcie} was used to run association mapping using the three different models of representing the QTL allelic state.
+---
+> The R package GridLMM \citep{Runcie} was used to run association mapping using the three different methods of representing the genotype data.
+209,210d244
+< The genomic relationship matrix, $K$ was generated from the 600K SNP data using a leave-one-chromosome-out (LOCO) method.
+< The same $K$ matrix was used for all three models.
+217c251,252
+< where $X_{Fi}$ is a $n$ x $f-1$ matrix for marker $i$ and $x_{fni}$ is the probability that at site $i$, individual $n$ was derived from founder $f$, and $\beta_Fi$, is the effect size of each founder allele. GridLMM fit an $n$ x $f$ matrix for each site $p$.
+---
+> where $y$ is the response variable, $X_{Fi}$ is a $n$ x $f$ matrix for marker $i$ and $x_{fni}$ is the probability that at site $i$, individual $n$ was derived from founder $f$, $\beta_Fi$, is the effect size of each founder allele, $Z$ is the design matrix, $u \sim \mbox{N}(0,\sigma^2_u \bf{K})$ is the random effects of markers across the rest of the genome using the genomic relationship matrix, $K$, and $\epsilon$ is the error. GridLMM fit an $n$ x $f$ matrix for each site $p$.
+> 
+223,225c258,262
+< where $X_{Hi}$ is an $n$ x $h-1$ matrix for marker $i$ and $x_{hni}$ is the probability that at site $i$, individual $n$ has haplotype $h$, and $\beta_{Hi}$, is the effect size of each haplotype allele. GridLMM fit an $n$ x $h$ matrix for each site $p$.
+< Significance cutoffs for p-values were obtained using permutation testing, taking the 5\% cutoff from 1000 permutations where genotypes were randomized relative to phenotypes for each method.
+< For the two largest QTL peaks, \emph{qDTA3-2} and \emph{qDTA8}, we tested if the peaks contained more than one QTL by including the most significant SNP of the QTL as a covariate and testing to see if any SNPs within the support interval remained significant.
+---
+> where $y$ is the response variable, $X_{Hi}$ is an $n$ x $h$ matrix for marker $i$ and $x_{hni}$ is the probability that at site $i$, individual $n$ has haplotype $h$, $\beta_{Hi}$, is the effect size of each haplotype allele, $Z$ is the design matrix, $u \sim \mbox{N}(0,\sigma^2_u \bf{K})$ is the random effects of markers across the rest of the genome using the genomic relationship matrix, $K$, and $\epsilon$ is the error. GridLMM fit an $n$ x $h$ matrix for each site $p$.
+> 
+>  Significance cutoffs for p-values were obtained using permutation testing, taking the 5\% cutoff from 1000 permutations where genotypes were randomized relative to phenotypes for each method.
+> %We used the software GEMMA [reference] to build a mixed linear model to identify
+> % QTL due the faster run time of this software with larger datasets.
+227c264
+<  \subsection{Model Comparison}
+---
+> \subsection{Model Comparison}
+229a267
+> %For example, if the lead SNP for a QTL was associated with a -log10(p-value) of 6, the left bound of the support interval was represented by the left-most marker with a -log10(p-value)
+232c270,278
+< The effect of the model used on the size of QTL support intervals was investigated using the QTL which were identified by all three methods (n=26).
+---
+> The effect of the model used on the size of QTL support intervals was investigated using the QTL which were identified by all three methods (n=26).  %\jri{is there any  impact on size of overlap on sharing results? eg. 1bp vs 10cM?}
+> %The model constructed was:
+> 
+> %\begin{equation}
+> %\label{eqn:bounds}
+> % Support Interval Size = Environment:QTL + Model + \epsilon
+> %\end{equation}
+> %variables all capitals for words representing variables with index
+> % not needed
+237c283
+< For the $QTL_F$ model, effect sizes were dropped for individual founders at some sites if there where fewer than 5 MAGIC lines that had a probability greater than 0.8 for one of the founders.
+---
+> For the $QTL_F$ model, probabilities were dropped (converted to missing) for individual founders at some sites if the sum of probabilities for a particular founder across all MAGIC lines was less than 1 or if there where fewer than 5 MAGIC lines that had a probability greater than 0.8 for one of the founders.
+239a286,287
+> %The comparison of effect sizes between methods was done using the effect size estimates of the most significant site within the QTL support interval.
+> %For methods that did not identify a QTL detected in other methods, comparison of effect sizes used the site with the highest log10 p-value that overlapped with the QTL support interval from the method that did detect the QTL.
+241a290,295
+> %We also compared the individual QTL identified by the three models in regards to the proportion of phenotype variance explained (PVE) by the QTL.
+> %, the minor allele frequency of the QTL in the population, and the standard errors of effect size estimates for the QTL.
+> %For each model, the highest non-significant peak within the support intervals of the QTL found in other models was used to represent the unidentified QTL.
+> %We tested for significant differences in these statistics between QTL that were identified or not identified in $GWAS_{SNP}$, $QTL_F$, and $QTL_H$.
+> %We tested for differences in PVE of QTL that were detected or undetected between models. We did this by fitting a mixed linear model with all combinations of method and whether or not a QTL was identified (i.e. $QTL_F$-True) as fixed effects and individual QTL as random effects. We tested for significant differences between the least square means of the estimated fixed effects using a Tukey pairwise test.
+> 
+243c297
+< We ran a genome scan for epistatic interactions with \emph{vgt1}.
+---
+> We ran a genome scan for epsistatic interactions with \emph{vgt1}.
+249a304
+> %Additionally, this provided an alternative way of testing for epistasis with \emph{vgt1} using the founder probabilities. \jri{as Dan pointed out this isn't necessarily epistasis, as could be entirely additive  effect  which  only occurs on the MITE background  (but  acts  independent of it)}
+251c306,318
+< We used the model from Equation \ref{eqn:gridlmm2} using DTA BLUP scores and the 5\% significance threshold for DTA.
+---
+> We used the model from Equation \ref{eqn:gridlmm2} using DTA BLUP scores and each independent environment and the 5\% significance threshold for DTA.
+> 
+> \subsection{Test for Over- and Under-Representation of Alleles}
+> The number of lines that had a probability of a particular founder greater than 0.8 were used as  an approximation of the number of lines that had that founder at a site.
+> This observed count was compared to a null expectation of $1/16$ for equal distribution across lines (approximately 21 lines per founder).
+> We performed a $\rchi^2$ test for each site to determine if founder counts significantly deviated from null expectation.
+> We obtained a 5\% significance threshold using the $\rchi^2$ obtained from founder counts in 100 simulated populations.
+> The $\rchi^2$ tests from simulated lines were done using reconstructed genotype data pulled from the 600K genotype data of the 16 founders.
+> We then used the same methods of calculating founder probabilities with R/qtl2 used with the actual population.
+> Due to the fact that we used the inferred founder identities of the simulated lines, rather than the known founder identities, the p-values we obtained from $\rchi^2$ tests of the simulated populations incorporated uncertainty of founder assignment.
+> %adjusting for multiple testing (p-value < 6.826e-7).
+> %In order to ensure that significant $\rchi^2$ sites were not due to sequence similarities between founders, we performed the same test with haplotype probabilities (p-value < 3.976e-7).
+> %With haplotype probabilities, the null expectation was proportional to the number of founders grouped within each haplotype and the total number of unique haplotypes at the site.
+253,254c320,321
+< \subsection{Flowering Time Enrichment Tests}
+< We used a list of flowering time (FT) genes assembled by \citep{Li5} to test for enrichment of FT genes in (i) regions that had significantly uneven representation of the founders and (ii) regions with high inter-chromosomal LD ($R^2$ > 0.9).
+---
+> \subsection{Flowering Time Enrichment Test}
+> We used a list of flowering time (FT) genes assembled by \citep{Li5} to test for enrichment of FT genes in haplotype $\rchi^2$ peaks.
+256,257c323,324
+< To determine a null distribution, we randomly sampled 887 non-FT genes and counted the number that overlapped with these two sets of regions for 1,000 permutations.
+< We compared this distribution to the actual number of FT genes that overlapped with the selected regions.
+---
+> To determine a null distribution, we randomly sampled 887 non-FT genes and counted the number that overlapped with regions within $\rchi^2$ peaks.
+> We compared this number to the actual number of FT genes that overlap with $\rchi^2$ peaks.
+259,261c326,329
+< \subsection{Data availability}
+< Genotypic data will be made available through FigShare.
+< Phenotypic and environmental data will be made available at FigShare associated with our companion paper, \citep{Hudson_in_prep}(tracking number G3-2021-402688) (https://figshare.com/s/5ee8337defdef63b04ce). Supplemental files are available at FigShare. File S1 contains a detailed description of the crossing scheme used to develop the MAGIC population. File S2 shows Manhattan plots similar to Figure \ref{fig:figure3} for individual environments. File S3 shows founder effect size plots for \emph{vgt1} similar to Figure \ref{fig:foundervgt1figure} for individual environments. File S4 is contains tables of all QTL identified in the study, their locations, and their effect sizes estimates from the three models. Code used to run analyses and to generate simulated data can be found at \url{https://github.com/sarahodell}.
+---
+> %\subsection{Calculation of Flowering Time Polygenic Scores}
+> %We calculated the polygenic scores (PGS) using the software rrBLUP \citep{Endelman}.
+> %To determine a null distribution of FT PGS, we also calculated PGS for 100 populations of simulated MAGIC lines.
+> %We compared how many of the simulated populations have average FT PGS greater than observed and used the distribution to generate a 95\% confidence interval.
+262a331
+> %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+263a333,334
+> %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+> %Topic sentences
+266d336
+< We developed a 16-parent MAGIC population using temperate inbred maize lines representative of the diversity of the Flint and Dent heterotic groups of North America and Europe (Figure \ref{fig:figure1a}).
+268c338,341
+< We genotyped 344 MAGIC DH lines from the population with a 600K SNP genotyping array and measured 7 phenotypes across 6 environments from hybrids resulting from crossing the DH lines to an inbred tester, MBS847.
+---
+> We developed a 16-parent MAGIC population using temperate inbred maize lines representative of the diversity of the Flint and Dent heterotic groups of North America and Europe (Figure \ref{fig:figure1}A).
+> We genotyped 334 MAGIC DH lines from the population with a 600K SNP genotyping array and measured 7 phenotypes across 6 environments from hybrids resulting from crossing the DH lines to an inbred tester, MBS847.
+> The distributions of the measured phenotypes were approximately normal (Figure \ref{fig:supfigure1}).
+> Some deviations from the assumptions of normality were observed for days to silking (DTS) and, as a result, anthesis-silking interval (ASI).
+270,271c343,344
+< PCA Analysis of the MAGIC lines and the 16 founders and tester suggested that the MAGIC lines maintained much of the genetic variation possessed by the founders, without overwhelming bias towards any particular founders (Figure \ref{fig:supfigure7}).
+< In addition, the minor allele frequencies of SNPs in the 16 founder compared to in the MAGIC lines suggested that lower frequency SNPs in the founders were either maintained or brought up in frequency in the MAGIC lines, which aids in the estimation of SNP effect sizes (Figure \ref{fig:supfigure8}).
+---
+> PCA Analysis of the MAGIC lines and the 16 founders and tester showed that the MAGIC lines maintained an expected amount of genetic variation (Figure \ref{fig:supfigure7}).
+> In addition, the minor allele frequencies of SNPs in the 16 founder compared to in the MAGIC lines suggested that lower frequency SNPs in the founders were brought up in frequency in the MAGIC lines, which aids in the estimation of SNP effect sizes Figure(\ref{fig:supfigure8}).
+276c349
+< This allowed us to determine the predicted contribution of each founder to the population (Figure \ref{fig:figure1}C).
+---
+> This allowed us to determine the predicted contribution of each founder to the population (Figure \ref{fig:figure1}B \& D).
+278c351
+< The median size of recombination blocks was 4.32 Mb and the mean size was 15.76 Mb with a standard deviation of 29.52 Mb.
+---
+> The median size of recombination blocks was 4.325 Mb and the mean size was 15.761 Mb with a standard deviation of 29.524 Mb.
+289c362
+< The results showed that a total of 1.81 Gb (86\%) and 1367.5 cM (92.7\%) of the genome were in IBD between at least two different founders.
+---
+> The results showed that a total of 1.81 Gb (86\%) and 1367.5 cM (92.7\%) of the genome were in IBD between at least two different founders. %\jri{can we  get a sup figure of  this pairwise IBD sharing?}
+294c367
+< The Neighbor-Joining Tree of the relatedness of the 16 founders and MBS847 recapitulated the IBD results (Figure \ref{fig:supfigure9}).
+---
+> The Neighbor-Joining Tree of the relatedness of the 16 founders and MBS847 recapitulated the IBD results (Founder \ref{fig:supfigure9}).
+296c369
+< This is consistent with pedigree of the lines, where A632 was derived from B14, a line from the same heterotic group as B73 (\href{run:./figures/Methods_Supplementa1.docx}{Supplemental File 1}) \citep{Lorenz}.
+---
+> This is consistent with pedigree of the lines, where A632 was derived from B14, a line from the same heterotic group as B73 \citep{Lorenz}.
+299c372
+< Within individual blocks of ancestry, we collapsed founder alleles that were identical by descent into a single haplotype (see Methods).
+---
+> Within individual blocks of ancestry, we collapsed founder alleles that were identical by descent into a single haplotype.
+301c374
+< Of those blocks, approximately 16\% of them (1,152) contained at least one haplotype whose pairwise IBD between parents was incomplete, meaning that there was some genetic variation between founders within those haplotypes that was not captured by the haplotype designation (see Methods)(Figure \ref{fig:supfigure6}).
+---
+> Of those blocks, approximately 16\% of them (1,152) contained at least one haplotype whose pairwise IBD between parents was incomplete, meaning that there was some genetic variation between founders within those haplotypes that was not captured by the haplotype designation (see Methods).
+306,335c379
+< In genetic distance, haplotype block sizes range from 0 to 3.4 cM, with an average of 0.20 cM and a median of 0.11 cM (Figure \ref{fig:figure2}D).
+< 
+< \begin{figure}
+< \includegraphics[width=\columnwidth,height=18cm]{figures/ft_interchrom_ld_figure.png}
+< \captionsetup{width=.9\columnwidth}
+< \caption{\textbf{Inter-chromosomal Linkage Disequilibrium and Flowering Time Genes in the MAGIC Population} \textbf{(A)} Ribbons represent regions of $R^2$ > 0.9 between consecutive SNPs on different chromosomes. Dark, solid, red bands outlined in black are regions larger than 10Mb on at least on of the chromosomes. Lighter, translucent red bands are regions greater than 5Mb and less than 10Mb. Red lines are regions larger than 100kb and smaller than 5Mb. Grey lines are regions larger than 1kb. The blue regions represent the support intervals for the flowering time QTL, \emph{qDTA3-2} and \emph{qDTA8}. \textbf{(B)} The null distribution of the number of genes overlapping with regions of high interchromosomal-LD ($R^2$ > 0.9) from 800 randomly selected genes from 1000 permutations. Observed number of flowering time genes overlapping with regions of high interchromosomal-LD are shown in red (n=593).}
+< \label{fig:circosfigure}
+< \end{figure}
+< \subsection{Founder Representation and Linkage Disequilibrium}
+< 
+< Analysis of the MAGIC population showed that the overall representation of the 16 founders in the MAGIC DH lines was relatively even, with the highest percentage founder, A654, representing 6.7\% and the lowest percentage founder, EP1, representing 5.2\%, compared to the expectation of 6.25\% for each founder (Figure \ref{fig:figure1}B).
+< However, multiple chromosome regions deviated significantly from the expected equal distribution (Figure \ref{fig:figure1}A).
+< Across individual regions of each chromosome, 20.4\% of the genome significantly deviated from null expectations compared to 100 simulated populations (5\% significance threshold $\rchi^2$ test p-value < 1.5e-09) (Figure \ref{fig:supfigure11}).
+< The fact that the $\rchi^2$ test performed on 100 simulated MAGIC populations of 344 individuals resulted in far fewer significant $\rchi^2$ peaks shows that the over- and under-representation of certain founder alleles was greater than would be expected by chance.
+< It also shows that over- and under-representation of founder alleles in the population was not due to potential inaccuracy of R/qtl2 in assigning founders.
+< These results suggests that a large amount of the over- and under-representation of founder alleles in the MAGIC population is biological, rather than a result of model error, and perhaps evidence of selection for or against particular founder alleles.
+< 
+< We estimated recombination rates and linkage disequilibrium across the MAGIC lines.
+< The intra-chromosomal LD structure shows fast LD decay consistent with many recombination events (Figure \ref{fig:supfigure10}).
+< Unexpectedly, there was a large amount of high inter-chromosomal LD (Figure \ref{fig:circosfigure}A).
+< Of a total of 9,796,630 SNP pairs with an $R^2$ greater than or equal to 0.9, 426,178 (4.3\%) of those pairs came from different chromosomes.
+< The number of inter-chromosomal high LD regions was more than would be expected by chance:
+< in 100 simulated populations, there were no SNP pairs with $R^2$ greater than 0.9 detected between chromosomes.
+< We detected large segments of inter-chromosomal LD between chromosome 3 and chromosome 8, but these regions did not overlap with the support intervals for \emph{qDTA8} and \emph{qDTA3-2}, corresponding to \emph{vgt1} and \emph{vgt3}, respectively (Figure \ref{fig:circosfigure}A).
+< 
+< Because individual DH lines were required to overlap in flowering time with the tester, MBS847, in order to successfully make F1s for the MAGIC population (Figure \ref{fig:figure1a}) , we hypothesized that the patterns observed in founder representation and linkage disequilibrium might be due to selection on flowering time.
+< In particular, the tester, MBS847, is a generally later flowering line and is $MITE^-$ at \emph{vgt1} \citep{Chardon}, providing the opportunity for selection against early flowering alleles.
+< As one test of this hypothesis, we asked whether genes involved in flowering were enriched in regions with high inter-chromosomal LD, and found strong enrichment of flowering time genes  in those regions compared to 1,000 randomized permutations (p-value<0.001)(\ref{fig:circosfigure}B).
+< We found no significant enrichment of flowering time genes within regions with significantly uneven founder representation (Figure \ref{fig:supfigure4}).
+< The finding that regions with high LD between chromosomes contain more flowering time genes than would be expected by chance suggests that selection for the combination of particular alleles affecting flowering may have occurred.
+---
+> In genetic distance, haplotype block sizes range from 0 to 3.4 cM, with an average of 0.20 cM and a median of 0.11 cM(Figure \ref{fig:figure2}D).
+337c381
+< \begin{figure*}[h!p]
+---
+> \begin{figure*}[h!t]
+339,340c383,384
+< \includegraphics[width=\textwidth,height=22cm]{figures/Methods_Fig3_v2.png}
+< \caption{\textbf{Results of three methods of QTL identification} (\textbf{A-C}) Manhattan plots for Days to anthesis (DTA) BLUPs. Colored points represent significant QTL above the 5\% significance threshold from 1000 random permutations, located between log10(p-value)=5 and log10(p-value)=6 (dashed line). \textbf{(A)} GWAS results using the $GWAS_{SNP}$ method. \textbf{(B)} Results from QTL mapping the $QTL_F$ method \textbf{(C)} Results from QTL mapping using the $QTL_H$ method. (\textbf{D-F}) Identification of individual QTL with varying permutation significance thresholds of 1\%, 5\%, and 10\% across the three methods. Different colors indicate the phenotype of the QTL and darker colors indicate that a QTL was significant at that threshold for a particular method for $GWAS_{SNP}$ (\textbf{D}), $QTL_F$, (\textbf{E}), and $QTL_H$ (\textbf{F}).}
+---
+> \includegraphics[width=\textwidth,height=12cm]{figures/Methods_Fig3_alltraits.png}
+> \caption{\textbf{Results of three methods of QTL identification} Colored points represent significant QTL for Days to anthesis (DTA) BLUPs above the 5\% significance threshold from 1000 random permutations, located between log10(p-value)=5 and log10(p-value)=6 (dashed line). Colored bars represent the location QTL support intervals for five other BLUP phenotypes (list colors and add legend, make the small intervals more visable) \textbf{(A)} GWAS results using the $GWAS_{SNP}$ method. \textbf{(B)} Results from QTL mapping the $QTL_F$ method \textbf{(C)} Results from QTL mapping using the $QTL_H$ method}
+347,349c391,393
+< The second method, $QTL_F$, used probabilities of founder identity in chromosome intervals, assuming that a QTL had as many alleles as founders.
+< The third method, $QTL_H$, used probabilities of haplotype identity in chromosome intervals, assuming that a QTL had as many alleles as ancestral haplotypes.
+< We performed QTL mapping separately in each of the 42 environment:phenotype combinations, plus the across-environment averages of the 7 traits, for a total of 49 separate analyses.
+---
+> The second method, $QTL_F$, used probabilities of founder identity in chromosome segments, assuming that a QTL had as many alleles as founders.
+> The third method, $QTL_H$, used probabilities of haplotype identity in chromosome segments, assuming that a QTL had as many alleles as ancestral haplotypes.
+> We performed QTL mapping separately in each of the 36 environment:phenotype combinations, plus the across-environment averages of the 6 traits, for a total of 42 separate analyses.
+351,352c395,397
+< The majority of QTL were identified by all three models using a 5\% significance threshold (26 or 57\%), with 6 QTL found in both $QTL_F$ and $QTL_H$ and 1 QTL found in both $GWAS_{SNP}$ and $QTL_F$ (Table \ref{tab:suptable2}).
+< In addition, each model found unique QTL, with 7, 3, and 3 QTL found in only $GWAS_{SNP}$, $QTL_F$, and $QTL_H$, respectively (Figure \ref{fig:supfigure2}).
+---
+> 26 (57\%) QTL were identified by all three models.
+> 6 QTL were found in both $QTL_F$ and $QTL_H$ and 1 QTL was found in both $GWAS_{SNP}$ and $QTL_F$.
+> 7, 3, and 3 QTL were found in only $GWAS_{SNP}$, only $QTL_F$, and only $QTL_H$, respectively (Figure \ref{fig:supfigure2}).
+355,362c400,407
+< There were 20 unique across-environment QTL identified from all methods at a 5\% significance threshold, and 10 of these  were found in more than one environment.
+< We found 12 across-environment QTL  using BLUPs and 2 of these were not identified in any individual environment.
+< Of these across-environment QTL, 6 (0 unique) QTL were found in Blois, 2014, 7 (1 unique) in Blois, 2017, 7 (3 unique) in Graneros, 2015, 5 (1 unique) in Nerac, 2016, 6 (3 unique) in St.Paul, 2017, and 3 (0 unique) in Szeged, 2017.
+< 
+< Figure \ref{fig:figure3}A-C shows the Manhattan plots from the three methods for BLUP DTA.
+< Analysis with individual environments identified fewer QTL, but displayed similar patterns (\href{run:./figures/Methods_Supplemental2.pdf}{Supplemental File 2}).
+< For DTA, all three methods easily identify two large QTLs, \emph{qDTA3-2} on chromosome 3 and \emph{qDTA8} on chromosome 8.
+< These QTL correspond to three previously identified QTL, \emph{vgt3} for \emph{qDTA3-2} and \emph{vgt1} and \emph{vgt2} for \emph{qDTA8}.
+---
+> There were 20 unique across-environment QTL identified from all methods.
+> 10 (50\%) of these across-environment QTL were found in more than one environment.
+> 12 across-environment QTL were found using BLUPs and 2 of these QTL were not found in any individual environment.
+> 6 (0 unique) QTL were found in Blois, 2014, 7 (1 unique) in Blois, 2017, 7 (3 unique) in Graneros, 2015, 5 (1 unique) in Nerac, 2016, 6 (3) in St.Paul, 2017, and 3 (0 unique) in Szeged, 2017.
+> 
+> Figure \ref{fig:figure3} shows the Manhattan plots from the three methods for BLUP DTA overlayed with the support intervals of significant QTL for all BLUP phenotypes.
+> Individual environments identified fewer QTL, but displayed similar patterns (\href{run:./figures/Methods_Supplemental2.pdf}{Supplemental File 2}).
+> For DTA, all three methods easily identify two large QTLs, \emph{qDTA3-2} on chromosome 3 and \emph{qDTA8} on chromosome 8. These QTL correspond to three previously identified QTL, \emph{vgt3} for \emph{qDTA3-2} and \emph{vgt1} and \emph{vgt2} for \emph{qDTA8}.
+369a415
+> %Overall, differences between the three approaches were relatively subtle.
+371,372c417,418
+< Individual QTL that were found in one method at the 5\% significance threshold usually became significant in other methods when the 10\% threshold was used, indicating that the differences in the ability to detect these QTL between methods is mostly due to differences in power (Figure \ref{fig:figure3}D-F).
+< Nonetheless, there were multiple QTL that were identified in only one method. There were 10 QTL that appeared in only one method, mostly related to grain yield, plant height, and thousand kernel weight traits.
+---
+> Individual QTL that were found in one method at the 5\% significance threshold usually became significant in other methods when the 10\% threshold was used, indicating that the differences in the ability to detect these QTL between methods is mostly due to differences in power (Figure \ref{fig:supfigure3}).
+> Nonetheless, there were multiple QTL that were identified in only one method. There were 10 QTL that appeared in one method and not in any others, mostly related to grain yield and thousand kernel weight traits.
+374,378c420,426
+< Support intervals for QTL were determined using a twofold change in the log$_{10}$ p-value of the most significant SNP (see Methods).
+< The size of $GWAS_{SNP}$ support intervals were significantly larger than $QTL_H$ support intervals in genetic distance (1.55 cM, SE = 0.56, t-ratio = 2.77, p-value = 0.021), but the difference in physical distance was not significant (t-ratio = 1.97, p-value = 0.13)(Table \ref{tab:suptable1}).
+< There was no significant difference in the size of QTL support intervals between $QTL_F$ and $QTL_H$ in either physical and genetic distance.
+< Although on average, the physical and genetic size of $GWAS_{SNP}$ support intervals were larger than those of $QTL_F$ support intervals, the difference was not significant, perhaps because of a single outlier QTL in $QTL_F$ with a very large support interval (Figures \ref{fig:supfigure15} \& \ref{fig:supfigure16}).
+< When the outlier was dropped from the model, the difference between $GWAS_{SNP}$ and both $QTL_F$ and $QTL_H$ support intervals were significant in both genetic (t-ratio = 2.87, p-value = 0.017; t-ratio = 3.17, p-value = 7.4e-3) and physical distance (t-ratio = 2.91, p-value = 0.015; t-ratio = 2.68, p-value = 0.027).
+---
+> Support intervals for QTL were determined using a 2log10 drop from the most significant SNP (see Methods).
+> The size of $GWAS_{SNP}$ support intervals were significantly larger than $QTL_H$ support intervals in genetic distance (1.554 cM, SE = 0.56, t-ratio = 2.774, p-value = 0.0211), but the difference in physical distance was not significant (t-ratio = 1.968, p-value = 0.1313).
+> There was no significant difference in the size of QTL support intervals between between $QTL_F$ and $QTL_H$ in both physical and genetic distance.
+> Although on average, the physical and genetic size of $GWAS_{SNP}$ support intervals were larger than those of $QTL_F$ and $QTL_H$ support intervals, the difference was not significant and most likely due to a single outlier in $QTL_F$ that had a very large support interval (Figure \ref{fig:supfigure15} \& \ref{fig:supfigure16}).
+> When the outlier was dropped from the model, the difference between $GWAS_{SNP}$ and both $QTL_F$ and $QTL_H$ support intervals were significant in both genetic (t-ratio = 2.871, p-value = 0.0166; t-ratio = 3.175, p-value = 0.0074) and physical distance (t-ratio = 2.907, p-value = 0.0152; t-ratio = 2.681, p-value = 0.0269).
+> The average physical sizes of QTL bounds were 17.53 Mb ($\sigma$ = 10.19 Mb, median = 19.67 Mb) for $GWAS_{SNP}$, 14.99 Mb ($\sigma$ = 13.64 Mb, median = 10.28 Mb) for $QTL_F$, and 13.72 Mb ($\sigma$ = 10.27 Mb, median = 9.24 Mb) for $QTL_H$.
+> The average genetic sizes of support intervals were 7.31 cM ($\sigma$ = 3.50 cM, median = 8.21) for $GWAS_{SNP}$, 6.22 cM ($\sigma$ = 3.78 cM, median = 5.88) for $QTL_F$, and 5.75 cM ($\sigma$ = 3.63 cM, median = 5.45) for $QTL_H$.
+380,385c428,453
+< \begin{figure*}[ht!]
+< \centering
+< \includegraphics[width=17cm,height=9cm]{figures/vgt1_Figure4.png}
+< \caption{\textbf{Estimated founder effect sizes for \emph{vgt1}.} Estimates of founder effect sizes relative to the population mean for Days to Anthesis (DTA) BLUP phenotypes using $QTL_F$. Letters A-N and groupings of shaded blocks along the x-axis indicate founders that have shared haplotypes at the most significant $QTL_F$ SNP. Color indicates reference (0) and alternate (1) alleles at the most significant $QTL_F$ SNP. Positive effect sizes indicate later flowering and negative effect sizes indicate earlier flowering. Founders on the right (D-N) within the bracket are lines that possess the MITE insertion ($MITE^+$), while founders on the left (A-C) lack the MITE insertion ($MITE^-$).}
+< \label{fig:foundervgt1figure}
+< \end{figure*}
+---
+> 
+> 
+> %\subsection{Variation in Effect Sizes}
+> %In select cases, effect sizes and allelic state of QTL seemed to explain the models' differing success in detection.
+> %Even for QTL that were identified by all methods, the estimated effect sizes of the QTL differed both across environments and between methods (include figure).
+> %For QTL that were found with some methods and not others, we attempted to examine the effect sizes to see if they provided insight into the genetic architecture of the QTL.
+> %This might suggest some mechanism besides differences in statistical power that would explain the differences in QTL detection ability.
+> %Looking at the effect sizes of the most significant SNPs within QTL support intervals, the effect size of the founders with the alternate allele are different than the single effect size of the alternate SNP allele provided by $GWAS_{SNP}$.
+> %For QTL that were found with both $GWAS_{SNP}$ and $QTL_F$, the effect sizes match up relatively better, but still show significant differences.
+> %Looking at the founder effect sizes of the most significant site from the $QTL_F$ within the $GWAS_{SNP}$ QTL support interval, the effect sizes have larger standard errors [figure/stats??].
+> 
+> %In most cases, the effect sizes of haplotypes average out the effect sizes of founders that are grouped together, weighted by the frequency of the founders in the MAGIC lines [stats??].
+> %For QTL detected in $QTL_F$ and not $QTL_H$, generally, there were higher numbers of unique haplotypes in these cases [stats].
+> %Comparing effect sizes of QTL that were identified in $QTL_H$ and not $QTL_F$, there tended to be fewer unique haplotypes at these QTL regions and the effect sizes of haplotypes that grouped together more than one founder were similiar to the estimated effect sizes of those founders [stats?? figures?].
+> 
+> %For each model, we compared QTL detected by that model to those not detected (see Methods).
+> %Comparing within models, we found that there were significant differences in the proportion of phenotypic variance explained (PVE) by QTL that were and were not detected by individual models (Figure \ref{fig:pvefigure}).
+> %Perhaps unsurprisingly, the PVE of detected QTL were signficantly higher than that of undetected QTL for $QTL_F$ (t-ratio -4.566, p-value 0.0002) and  $QTL_H$ (t-ratio -4.145, p-value 0.0009).
+> %However, QTL not detected by $GWAS_{SNP}$ had signficantly higher PVE than those detected by that method (t-ratio 3.267, p-value 0.0178).
+> %Between models, QTL detected by $QTL_F$ and $QTL_H$ explained significantly more phenotypic variance than those detected by $GWAS_SNP$ (t-ratio -28.883 p-value <.0001; t-ratio -31.278 p-value <.0001), although there was no significant difference between $QTL_F$ and $QTL_H$ (t-ratio 1.658, p-value 0.5629)
+> 
+> %\begin{figure}[ht]
+> %\includegraphics[width=\linewidth]{figures/pve_contrasts.png}
+> %\caption{\textbf{Percent Phenotypic Variance Explained By Detected and Undetected QTL Between Methods} Color indiciates whether or not QTL were detected in that group. Letters represent significantly difference groups from a Tukey pairwise test.}
+> %\label{fig:pvefigure}
+> %\end{figure}
+388c456
+< One notable QTL that was identified by all three models using BLUPs (Figure \ref{fig:figure3}) and nearly all individual environments was qDTA8, a large QTL on chromosome 8 that was strongly correlated with variation in days to anthesis as well as days to silking.
+---
+> One notable QTL that was identified by all three models using BLUPs (Figure \ref{fig:figure3}) and nearly all individual environments was qDTA8, a large QTL on chromosome 8 that was strongly correlated with variation in days to anthesis, as well as days to silking.
+392c460,467
+< At \emph{vgt1}, the 16 founders are segregating ($MITE^+$/$MITE^-$) for the putative causal variant, a MITE insertion in a conserved non-coding sequence upstream of \emph{ZmRap2.7} \citep{Salvi,Castelletti}.
+---
+> \begin{figure*}[ht!]
+> \centering
+> \includegraphics[width=16cm,height=9cm]{figures/vgt1_Figure4.png}
+> \caption{\textbf{Estimated founder effect sizes for \emph{vgt1}} Estimates of founder effect sizes relative to the population mean for Days to Anthesis (DTA) BLUP phenotypes using $QTL_F$. Letters A-N and groupings of shaded blocks along the x-axis indicate founders that have shared haplotypes at the most significant $QTL_F$ SNP. Color indicates reference (0) and alternate (1) alleles at the most significant $QTL_F$ SNP. Positive effect sizes indicate later flowering and negative effect sizes indicate earlier flowering. Founders on the right labelled in bold and italics are lines that possess the MITE insertion ($MITE^+$), while founder on the left lack the MITE insertion ($MITE^-$.}
+> \label{fig:foundervgt1figure}
+> \end{figure*}
+> %add zero line and background grid, emphasize SNP genotype, bracket around grouped haplotypes, alternating background of haplotypes, use color to represent 0/1, add asterisk to founder name on x-axis, order haplotypes/alleles by the mean
+> At \emph{vgt1}, the 16 founders are segregating ($MITE^+$/$MITE^-$) for the causal variant, a MITE insertion in a conserved non-coding sequence upstream of \emph{ZmRap2.7} \citep{Salvi,Castelletti}.
+394c469
+< Looking at the most significant SNP for \emph{qDTA8} from $GWAS_{SNP}$, the alternate allele correlated imperfectly with the presence of the MITE in the founders (r=0.65).
+---
+> Looking at the most significant SNP for \emph{qDTA8} from $GWAS_{SNP}$, the alternate allele correlated strongly but imperfectly with the presence of the MITE in the founders (r=0.655).
+398c473
+< While only F252 had a 95\% confidence interval not overlapping zero, all  had effect sizes significantly later than the other $MITE^+$ founders (t-ratio = 7.67, p-value <1e-4).
+---
+> While only one founder, F252 had a 95\% confidence interval not overlapping zero, all of them had effect sizes significantly later than the other $MITE^+$ founders (t-ratio = 7.666, p-value <0.0001).
+401c476
+< Analysis of the haplotype structure in the region around \emph{vgt1} in the 16 founders showed clear differences between those that do and do not have the MITE insertion, but did not differentiate $MITE^+$ late founders from $MITE^+$ early founders (Figure \ref{fig:supfigure14}).
+---
+> Analysis of the haplotype structure in the region around \emph{vgt1} in the 16 founders showed clear differences between those that did and did not have the MITE insertion, but did not differentiate $MITE^+$ late founders from $MITE^+$ early founders (Figure \ref{fig:supfigure14}).
+403,404c478,479
+< One possible explanation for this observation is an epistatic interaction between \emph{vgt1} and other loci in the genome.
+< However, a genome scan for epistasis between \emph{vgt1} and other loci did not yield any significant interactions (Figure \ref{fig:supfigure12}).
+---
+> One possible explanation for this observation is an epistatic interaction between \emph{vgt1} and the genetic background.
+> However, genome scan for epistasis between \emph{vgt1} and other loci did not yield any significant interactions (Figure \ref{fig:supfigure12}).
+406,409c481,511
+< One of these significant sites is located in close proximity to the causal gene for \emph{vgt2}, \emph{ZCN8}, and may be explained by this linked QTL \citep{Guo}.
+< The second significant site is located ~15Mb downstream of \emph{vgt1}, suggesting that some local variation around the region of \emph{vgt1} impacts the effect of the QTL on flowering time.
+< This site may have an epistatic interaction with \emph{vgt1} that did not pass the stringent genome-wide significance threshold.
+< Alternatively, the relationship between the loci could be entirely additive, but the causal allele may only occur on the $MITE^+$ background.
+---
+> One of these significant sites is located in close proximity to the causal gene for \emph{vgt2}, \emph{ZCN8}, and is mostly explained by this linked QTL \citep{Guo}.
+> The second significant site is located ~15Mb downstream of \emph{vgt1}, suggesting that some local variation around the region of \emph{vgt1} impacts the affect of the QTL on flowering time.
+> This site may possibly have an epistatic interaction with \emph{vgt1} that did not pass the stringent significant threshold.
+> Alternatively, the relationship between the loci could be entirely additive, but with the causal allele only occurring on the MITE background.
+> % Look at variants around ZCN8
+> 
+> % Look at variants around ZMMADS69 (do we know causal variants?)
+> 
+> \subsection{Founder Representation and Linkage Disequilibrium}
+> 
+> The MAGIC population showed an overall balance of coverage from the 16 founders (Figure \ref{fig:figure1}C).
+> Analysis of the MAGIC population showed that the overall representation of the 16 founders in the MAGIC DH lines was relatively even, with the highest percentage founder, A654, representing 6.741\% and the lowest percentage founder, EP1, representing 5.237\%.
+> However, multiple chromosome regions deviated significantly from the expected equal distribution (Figure \ref{fig:figure1}B).
+> Across individual regions of each chromosomes, 20.4\% of the genome significantly deviated from null expectations compared to 100 simulated populations (5\% significance threshold $\rchi^2$ test p-value < 1.485e-09) (Figure \ref{fig:supfigure11}).
+> % Why not using a bootstrap approach instead? You could also have used R/qtl2 on your simulated data to generate a baseline including the uncertainty of the haplotype calling step and at the same time validate with your simulated data the quality of the assignment quality (this would be helpful for the discussion and interpretation of the GWAS results)
+> The fact that the $\rchi^2$ test performed on 100 simulated MAGIC populations of 325 individuals resulted in far fewer significant $\rchi^2$ peaks showed that the over- and under-representation of certain founder alleles was greater than would be expected by chance.
+> %($\mu=$0.16\%, $\sigma=$0.23\%,median=0.082\%),
+> %Make this clearer (elaborate that simulations take into account errors from R/qtl2 - rather than using a Bonferroni p-value, use a 5% p-value from the simulations
+> It also shows that over- and under-representation of founder alleles in the population was not due inaccuracy of R/qtl2 in assigning founders.
+> 
+> %In order to ensure that these chi-squared peaks were not a result of technical error, we performed the same chi-squared test using haplotypes rather than founders.
+> %Using haplotype probabilities, 17.7\% of sites deviated from null expectations (Supplemental Figure).
+> These results suggests that a large amount of the over- and under-representation of founder alleles in the MAGIC population is biological, rather than a result of model error, and perhaps evidence of selection for or against particular founder alleles.
+> 
+> We estimated recombination rates and linkage disequilibrium across the MAGIC lines.
+> %The founder probabilities showed levels of recombination in the MAGIC population that are consistent with expectations from the simulated MAGIC populations.
+> The intra-chromosomal LD structure show fast LD decay consistent with many recombination events (Figure \ref{fig:supfigure10}).
+> Unexpectedly, there was a large amount of high inter-chromosomal LD (Figure \ref{fig:circosfigure}).
+> Of a total of 9,796,630 SNP pairs with an $R^2$ greater than or equal to 0.9, 365,345 (3.7\%) of those pairs came from different chromosomes.
+> The number of inter-chromosomal high LD regions were more than would be expected by chance. In 100 simulated populations, there were no SNP pairs with $R^2$ greater than 0.9 detected between chromosomes.
+> Interestingly, a large segment of interchromosomal-LD between chromosome 3 and chromosome 8 (Figure \ref{fig:circosfigure}) overlaps with the support intervals for \emph{qDTA8} and \emph{qDTA3-2}, corresponding to \emph{vgt1} and \emph{vgt3}, respectively.
+410a513,539
+> \begin{figure}[ht]
+> \centering
+> \includegraphics[width=\linewidth]{figures/circos.png}
+> \caption{\textbf{Inter-chromosomal Linkage Disequilibrium in the MAGIC Population} Ribbons represent regions of $R^2$ > 0.8 between consecutive SNPs on different chromosomes. Dark, solid, red bands are regions larger than 20Mb on at least on of the chromosomes. Lighter, translucent red bands are regions greater than 1Mb and less than 20Mb. Grey bands are regions larger than 10kb.}
+> \label{fig:circosfigure}
+> \end{figure}
+> 
+> % Selection on flowering time
+> \subsection{Evidence of Selecion on Flowering Time}
+> We had reason to believe that selection on flowering time occurred during the making of the MAGIC population.
+> When MAGIC DH lines were crossed to the inbred tester to produce MAGIC F1s, the DH lines needed to nick with the tester in order for crosses to be made.
+> The tester, MBS847, is a generally later flowering line and is $MITE^-$ at \emph{vgt1} \cite{Chardon}.
+> For this reason, we would expect that, if selection on flowering time had occurred, most of the genetic variation that was selected against would have been for earlier flowering alleles.
+> We tested to see if genes involved in flowering were enriched in $\rchi^2$ peaks, where some founderss and haplotypes were significantly over- or under-represented.
+> However, the number of FT genes found within $\rchi^2$ peaks was not significantly different than were expected by chance (Figure \ref{fig:supfigure4}).
+> %Presence/absence of FT genes
+> Therefore, there is no evidence that the over- and under-representation of particular founders and haplotypes was due to the presence of flowering time genes within these regions.
+> 
+> %Due to the fact that MBS847 is earlier flowering, we would expect that earlier flowering alleles would be selected against and be at a lower frequency in the resulting MAGIC F1s.
+> %We suspected that this would result in the flowering time polygenic scores (PGS) of the actual population to be later than those from random simulations.
+> %However, the mean polygenic score (PGS) for DTA for the actual lines ($\mu$=-1.127) was earlier than the average from the 100 simulated MAGIC populations, though it was still within the 95\% confidence interval of the simulated distribution.
+> %Interestingly, the variance of the distribution of polygenic scores was significantly higher in the actual population than any of the simulated populations.
+> %These results suggest that there was little to no polygenic selection for earlier days to anthesis during the making of the population.
+> 
+> %Add legend to figure
+> 
+> %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+411a541
+> %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+417c547
+< And while the higher number of parameters that must be fit by this model may also reduce power because the regions tested are much larger than one SNP, it also reduces the multiple testing burden.
+---
+> The higher number of parameters that must be fit by this model may also reduce power.
+419,421c549,550
+< There is, however, the potential for $QTL_H$ to obscure the signal of some QTL if founders are called as having the same ancestral haplotype when they actually differ for a causal variant.
+< Due to the fact that $QTL_H$ and $QTL_F$ only take into account recent recombination events, whereas $GWAS_{SNP}$ uses historical recombination, we predicted that $GWAS_{SNP}$ would result in higher resolution of QTL support intervals.
+< Higher resolution QTL are ideal in that they make it easier to narrow down candidate genes and potential causal variants.
+---
+> There is, however, the potential for $QTL_H$ to obscure the signal of some QTL if founders are called as being in IBD with one another when they actually differ for the causal variant.
+> Due to the fact that $QTL_H$ and $QTL_F$ only take into account recent recombination events, whereas $GWAS_{SNP}$ uses historical recombination, we predicted that $GWAS_{SNP}$ would result in higher resolution of QTL support intervals. Higher resolution QTL are ideal in that they makes it easier to narrow down candidate genes and potential causal variants when the support interval is smaller.
+423,424c552,554
+< The results of using these three models of genetic architecture to identify QTL suggest that each has its own advantages and disadvantages in terms of how many and which QTL they can identify.
+< Overall, the $QTL_F$ model performed the best in terms of the number of QTL identified, although there were multiple QTL identified uniquely in all models.
+---
+> The results of using the three models of genetic architecture to identify QTL suggest that each has its own advantages and disadvantages in terms of how many and which QTL they can identify.
+> Overall, the $QTL_F$ performed the best in terms of the number of QTL identified, although there were multiple QTL identified uniquely in all models.
+> We conclude that if the goal of a study is to find as many QTL as possible, then it would be most useful to employ all three models to maximize QTL identification.
+426,428c556,559
+< We suspect that this finding is either the result of the somewhat naive method used to determine QTL support intervals, or residual long-distance LD caused by the funnel crossing scheme.
+< A two-fold drop in log$_{10}$ p-values heavily penalizes QTL that just pass significance.
+< In addition, the 100Mb window used is blind to QTL peaks that contain multiple QTL, although. the two largest QTL peaks identified, \emph{qDTA3-2} and \emph{qDTA8} each appeared to only contain one QTL.
+---
+> We suspect that this finding is a result of the somewhat naive method used to determine QTL support intervals.
+> A 2log10 drop in -log10(p-values) heavily penalizes QTL that just break significance, and the 100Mb window is blind to QTL peaks that contain multiple QTL.
+> %The $GWAS_{SNP}$ method had higher 5\% permutation cutoffs, and therefore had more QTL that were
+> %The lack of significant difference in the genetic and physical size of support intervals for the QTL found in the three methods suggests that the differences in QTL detection ability are more a result of differences in statistical power than a difference in ability to account for recombination events.
+433c564
+< LDLA has been used in multiple studies to enhance QTL detection in multi-parent populations in maize \citep{Giraud2,Yu2,McMullen} and other organisms such as pigs \citep{Herault}, rice \citep{Zaw,Stadlmeier}, barley \citep{Sannemann}, and winter wheat \citep{Stadlmeier}.
+---
+> LDLA has been used in multiple studies to enhance QTL detection in multi-parent populations in maize \citep{Giraud2,Yu2,McMullen} and other organisms \citep{Herault}.
+435,438d565
+< \cite{Yalcin} compared a bi-allelic model to an ancestral haplotype model in a multi-parent mouse population, as well as a "merge analysis" to attempt to identify candidate causal variants underlying QTL.
+< A similar analysis in the outbred NIH-HS rat population used merge analysis and found that many QTL could not be explained by a single causal variant, suggesting a multi-allelic basis for these QTL \citep{Baud}.
+< 
+< %Simulations of power in the mice Collaborative Cross \citep{Valdar}
+441c568
+< \cite{Giraud} used both a haplotype- and founder- based approach in two nested association mapping populations of Northern European flint and dent maize lines created by \cite{Bauer} and genotyped with a 50K SNP array \citep{Ganal}.
+---
+> \cite{Giraud} used both a haplotype- and founder- based approach to map in two nested association mapping populations of Northern European flint and dent maize lines created by \cite{Bauer} and genotyped with a 50K SNP array \citep{Ganal}.
+445,446c572
+< The type of multi-parent population used in studies has varied across studies.
+< To our knowledge, comparison of the performance of these models in a MAGIC population has not been done.
+---
+> The type of multi-parent population used in studies has varied across studies. To our knowledge, the comparison performance of these models in a MAGIC population has not been done.
+447a574
+> Lastly, the use of the package GridLMM \citep{Runcie} allowed us to use continuous rather than discrete representations of founder and haplotype state, which allowed for the incorporation of uncertainty due to genotyping or model error into our tests for association.
+452c579
+< \cite{Bardol} found that in two multi-parent dent populations, their bi-allelic model and ancestral haplotype model generally outperformed the parental linkage model, although benefits of these models varied by dataset.
+---
+> \cite{Bardol} found that in two multi-parent dent populations, their bi-allelic model and ancestral haplotype model generally outperformed the parental linkage model, although benefits of these models varied by dataset; they concluded that there was a trade-off between increasing statistical power by reducing model parameters and the ability of the model to accurately represent the potentially complex allelic variation of multi-parent populations.
+455c582
+< The fact that the $QTL_F$ model outperformed the $QTL_H$ and $GWAS_{SNP}$ in our population suggests that the MAGIC population contains a relatively more diverse representation of temperate maize than populations used in previous studies.
+---
+> The fact that the $QTL_F$ model outperformed the $QTL_H$ and $GWAS_{SNP}$ in our population suggests that the MAGIC population contains a relatively more diverse representation of European and North American flint and dent than populations used in previous studies.
+458a586
+> %The differences between $GWAS_{SNP}$ and $QTL_F$ may be due to the fact that the most significant SNP in $GWAS_{SNP}$ and the most significant site in $QTL_F$ may be different regions with slightly different LD structure.
+461c589
+< Similarly, we predict multi-allelic QTL were more likely to be identified by the $QTL_F$ or $QTL_H$ models and not the $GWAS_{SNP}$ method unless the effect size was large.
+---
+> Multi-allelic QTL were more likely to be identifed by the $QTL_F$ or $QTL_H$ models and not the $GWAS_{SNP}$ method unless the effect size was large.
+464,465d591
+< Because there were more regions tested for $QTL_H$ than for $QTL_F$, if the true number of ancestral haplotypes at the QTL is large, the $QTL_H$ method may actually have lower power than $QTL_F$ because the number of tests is higher.
+< Alternatively, it may be the result of a failure of $QTL_H$ to accurately represent the true haplotype structure of the QTL region.
+466a593,596
+> If the true number of ancestral haplotypes at the QTL is large, the $QTL_H$ method may actually have lower power than $QTL_F$ because the number of tests is higher.
+> Alternatively, it may be the result of a failure of $QTL_H$ to accurately represent the true haplotype structure of the QTL region.
+> %It should also be noted that in the process of calculating pairwise IBD and assigning founders to haplotypes requires an inherently arbitrary significance threshold for calling founders as in IBD or not (\ref{fig:supfigure6}).
+> %In our case, this resulted in some incomplete haplotype graphs, meaning that in some cases, most, but not all founders grouped into the same haplotype were in pairwise IBD with the other founders in the haplotype.
+469,481c599,616
+< This is to be expected, as each QTL is the result of a distinct set of one or more causal alleles with a unique evolutionary history and pattern of linkage disequilibrium within the population.
+< 
+< Whether QTL that appeared in only one method are due to false positives or true differences in the methods' abilities to identify QTL with different genetic architectures cannot be determined, but many of the QTL identified in the MAGIC have underlying candidate genes or have been found in previous studies, providing support to their biological reality.
+< Multiple flowering time QTL support intervals overlap or are close to previously identified flowering time genes and QTL.
+< \emph{qDTA9} is nearby the previously identified maize flowering time gene \emph{ZmCCT9} \citep{Huang3}.
+< \emph{qDTA3-2} overlaps with \emph{vgt3}, whose underlying gene was identified as \emph{ZmMADS69} \citep{Liang}.
+< \emph{qDTA3-1} is nearby a recently identified flowering time QTL also associated with phasphatidylcholine levels \citep{RodriguezZapata}.
+< The support interval for \emph{qDTA8} overlaps with two flowering time QTL, \emph{vgt1}, which we discuss in length, and another, \emph{vgt2}.
+< The causal gene for \emph{vgt2} is \emph{ZCN8}, which is the maize ortholog of FT in \emph{Arabidopsis} \citep{Lazakis}.
+< Variation in the promoter region of \emph{ZCN8} between temperate maize and teosinte suggests that earlier flowering alleles were under selection during the process of maize domestication \citep{Guo,Bouchet}.
+< It is interesting to note that there is strong overlap in the support intervals of QTL found on chromosome 3 between flowering time and harvest grain moisture (Table \ref{tab:suptable2}), perhaps due to developmental pleiotropy linking flowering time and the moisture of kernels at harvest.
+< Three GxE QTL were detected in this population \citep{Hudson_in_prep} using the $QTL_F$ model, but none overlapped with the main effect QTL we detected in this study.
+< One of these QTL appeared to be a false positive resulting from low representation of one of the founders in the region, indicating the potential for low founder sample size to confound QTL results.
+---
+> This is to be expected, as each QTL is the result of a distinct causal variant with a different number of alleles within the population.
+> Whether QTL that appeared in only one method are due to false positives or true differences in the methods' abilities to identify QTL with different genetic architectures cannot be determined.
+> %The $QTL_H$ method's assumption that founders share ancestral haplotypes varied in its ability to improve QTL detection.
+> %For QTL that were identified in the $QTL_H$ method and not the $QTL_F$ method, the lower number of unique haplotypes suggests that $QTL_H$ was more successful in finding these QTL due to improved power when there were fewer functional alleles than founders.
+> %The lack of significant improvement of the $QTL_H$ method relative to the others in some cases may be the result of the formation of haplotypes based off of sequence information that do not accurately reflect the functional haplotypes of the founder for particular phenotypes.
+> %Grouping of two or more founders into the same haplotype that do not share the same functional alleles underlying a QTL would result in a decrease in the ability to accurately estimate haplotype effect sizes and a reduction in signal.
+> 
+> Many of the QTL identified in the MAGIC have underlying candidate genes or have been found in previous studies, providing support to their biological reality .
+> Multiple flowering time QTL support intervals overlap or are close by previously identified flowering time genes and QTL.
+> \emph{qDTA9} is nearby the previously identified maize flowering time gene \emph{ZmCCT9} \cite{Huang3}.
+> \emph{qDTA3-2} overlaps with \emph{vgt3}, whose underlying gene was identified as \emph{ZmMADS69} \cite{Liang}.
+> \emph{qDTA3-1} is nearby a recently identified flowering time QTL also associated with phasphatidylcholine levels \cite{RodriguezZapata}.
+> The support interval for \emph{qDTA8} overlaps with two flowering time QTL, \emph{vgt1}, which we discuss in length, and another, \emph{vgt2}. The causal gene for this QTL is \emph{ZCN8}, which is the maize ortholog of FT in \emph{Arabidopsis} \cite{Lazakis}.
+> Variation in the promoter region of \emph{ZCN8} between temperate maize and teosinte suggests that earlier flowering alleles were under selection during the precess of maize domestication \citep{Guo};\citep{Bouchet}.
+> %Overlap of other QTL with previously identified QTL...
+> It is interesting to note that there is strong overlap in the support intervals of QTL found on chromosome 3 between flowering time and harvest grain moisture (Figure \ref{fig:figure3}), perhaps due to developmental pleiotropy linking flowering time and the moisture of kernels at harvest.
+> Three GxE QTL were detected in this population (XX cite Asher's paper) using the $QTL_F$ model, but neither overlapped with the main effect QTL we detected in this study.
+> One of these QTL appeared to be a false positive resulting from low representation of one of the founders in the region, indicating the potential for low founder sample size to confound $QTL_F$ results.
+486,487c621,629
+< Previous research  has shown that variation in flowering time at this site is strongly correlated with a MITE insertion about 70kb upstream of the flowering time regulator, \emph{ZmRAP2.7}, an \emph{APETALA}-like transcription factor, with the presence of the MITE associated with an earlier flowering time \citep{Castelletti}.
+< Within maize heterotic groups, Flint maize lines tend to possess the early-flowering allele of \emph{vgt1} (\emph{MITE+}), while dents (such as B73) tend to carry the late-flowering allele (\emph{MITE-}) \citep{Salvi}.
+---
+> 
+> 
+> %Flowering time is a highly important trait both from a breeding and evolutionary standpoint.
+> 
+> %Flowering time in maize has been shown to be a highly polygenic trait controlled by many, mostly small-effect loci \citep{Buckler}, although some larger effect QTL have been identified.
+> %Once such QTL is \emph{vgt1}, located on chromosome 8 \cite{Salvi}.
+> %The relatively large effect of \emph{vgt1} compared to most other identified maize flowering time QTL has made it a target of a great deal of study, and it has been identified in multiple populations [cite].
+> Previous research  has shown that variation in flowering time at this site is strongly correlated with a MITE insertion about 70kb upstream of the flowering time regulator, \emph{ZmRAP2.7}, an \emph{APETALA}-like transcription factor, with the presence of the MITE associated with an earlier flowering time \cite{Castelletti}.
+> Within maize heterotic groups, Flint maize lines tend to possess the early-flowering allele of \emph{vgt1} (\emph{MITE+}), while dents (such as B73) tend to carry the late-flowering allele(\emph{MITE-}) \citep{Salvi}.
+489,491c631,634
+< The frequency of the MITE in maize populations follows a latitudinal gradient, suggesting that the early $MITE^+$ allele was selected for during the process of maize adaptation to temperate climates \citep{Navarro}.
+< It has also been shown that there are differentially-methylated regions around \emph{vgt1} between B73, landrace maize, and its wild relative, teosinte \citep{Xu}.
+< The hypothesized mechanism of action is that the MITE represses expression of the negative flowering time regulator,\emph{ZmRAP2.7}, possibly due to changes in methylation around the insertion, resulting in earlier induction of flowering \citep{Castelletti}.
+---
+> The frequency of the MITE in maize populations follows a latitudinal gradient, suggesting that the early allele was selected for during the process of maize adaptation to temperate climates \cite{Navarro}.
+> %As a negative regulator of flowering time, this reduced expression results in an earlier flowering phenotype [].
+> It has also been shown that there are a differentially-methylated regions between B73, landrace maize, and teosinte \cite{Xu}.
+> The hypothesized mechanism is that the MITE represses expression of \emph{ZmRAP2.7}, possibly due to changes in methylation around the insertion, resulting in earlier flowering \cite{Castelletti}.
+492a636
+> %Further, there has been some evidence of epistatic interactions which can impact the effect of the QTL (Alain Charcosset, personal communication).
+494c638
+< The observed lack of significant epistasis with \emph{vgt1} in this study (Figure \ref{fig:supfigure11}), combined with our results of $MITE^+$ $QTL_F$ (Figure \ref{fig:supfigure12}), appear consistent with this idea.
+---
+> The lack of significant epistasis with \emph{vgt1} (Figure \ref{fig:supfigure11}) and the results of $MITE^+$ $QTL_F$ (Figure \ref{fig:supfigure12}) appear consistent with this finding.
+496c640
+< This opens up new areas of inquiry for future studies. \citep{Mathew} used the barley population of \cite{Sannemann} to detect epistatic interactions in flowering time using a Bayesian framework, and a similar method could perhaps be applied here.
+---
+> This opens up new areas of inquiry for future studies.
+498,500c642,654
+< The population displayed unexpected patterns of uneven founder representation along the genome (Figure \ref{fig:figure1}C).
+< The apparent high over- or under-representation of some founder alleles may be due to these founders being in close IBD with another founder, resulting in uncertainty in the founder probabilities.
+< Nonetheless, the high accuracy of founder assignment and low number of sites that significantly deviate from equal founder distribution in our simulations make this explanation seem unlikely.
+---
+> %\emph{ZCN8} functions somewhere downstream of \emph{ZmRAP2.7}, and is negatively regulated by it.
+> %Variation in the promoter region of \emph{ZCN8} between temperate maize and teosinte suggests that earlier flowering alleles were under selection during the process of maize domestication \citep{Guo,Bouchet}
+> %Deviation from expectations in the founder effect sizes could be due to interaction with local genetic background or differences in estimation error due to lower representation of certain founders in the MAGIC lines at this region.
+> 
+> %In contrast, it's disadvantages include lower power for detecting epistasis.
+> The population displayed unexpected patterns of uneven founder representation (Figure \ref{fig:figure1}C).
+> High over- or under-representation of some founder alleles may be due to these founders being in close IBD with another founder, resulting in uncertainty in the founder probabilities.
+> The high accuracy of founder assignment and low number of sites that significantly deviate from equal founder distribution in our simulations make this explanation seem unlikely.
+> %Another possible explanation is that there was selection against these founders during the breeding process.
+> %Although theoretically the population's design should result in equal distribution of parents, this did not always appear to be the case.
+> %
+> %We made our own package due to the complicated nature of the crossing scheme.
+> %Our simulations showed significantly more even founder representation.
+501a656
+> The complex crossing scheme has the potential to introduce the influence of selection, where purifying selection may actually reduce the genetic variation that we are attempting to study.
+503,505c658
+< Another interesting observation of the population was the relatively high levels of inter-chromosomal LD (Figure \ref{fig:circosfigure}), which deviated significantly from that obtained from simulations.
+< A potential consequence of inter-chromosomal LD is the chance for confounding of association analyses, namely resulting in the detection of "ghost" QTL.
+< Although for the discussed QTL detected that were in high inter-chromosomal LD with one another, \emph{qDTA8} and \emph{qDTA3-2}, their effects on flowering time were independent, the chance for false positives and inaccurate support intervals due to LD structure is still worth noting.
+---
+> Another interesting observation of the population was the relatively high levels of inter-chromosomal LD (Figure \ref{fig:figure5}), which deviated significantly from that obtained from simulations.
+508,509c661,666
+< Both of these observations suggest that forces other than those of random segregation have operated on the MAGIC population, further supported by the fact that genes affecting flowering time were strongly enriched in regions of high inter-chromosomal LD (Figure \ref{fig:circosfigure}).
+< These observations raise the possibility that the complex crossing schemes of MAGIC populations have the potential to introduce the influence of selection, which may restrict the very genetic variation that we are attempting to study.
+---
+> Both of these observations suggest that forces other than those of random segregation have operated on the MAGIC population.
+> %The high levels of inter-chromosomal LD detected in the MAGIC population deviates significantly from null expectations obtained from simulations.
+> Another potential consequence of inter-chromosomal LD is the chance for confounding of association analyses, namely resulting in the detection of "ghost" QTL.
+> Although for the discussed QTL detected that were in high inter-chromosomal LD with one another, \emph{qDTA8} and \emph{qDTA3-2}, their effects on flowering time were independent, the chance for false positives and inaccurate support intervals due to LD structure is still worth noting.
+> %There was reason to suspect that there had been purifying selection on flowering time over the course of the creation of the MAGIC population.
+> %However, there was no enrichment of flowering time genes in regions where some founders were more or less represented than expected by chance and polygenic scores of flowering time were not signficantly earlier than simulations.
+513c670
+< As a multi-parent population, it has the advantages of increased genetic diversity and higher power to detect QTL with lower allele frequencies.
+---
+> As a multi-parent population, it has the advantages of increased diversity compared to bi-parental mapping populations, no population structure , and higher power to detect QTL with lower allele frequencies.
+516,517c673,675
+< The benefits of increasing statistical power by reducing model parameters in bi-allelic and ancestral haplotype models seem to be tempered by the true allelic complexity of the multi-parent population being studied.
+< We conclude that if the goal of a study is to find as many QTL as possible, then it would be most useful to consider the genetic diversity contained within the population when choosing a model in order to maximize QTL identification.
+---
+> 
+> %\subsection{another figure}
+> %This is a full size figure (Figure \ref{fig:S1}) just add stars to the figure
+520a679
+> S.G.O. was supported by the National Science Foundation Gametophytic Factor Grant. A.I.H. was supported by National Science Foundation Graduate Research Fellowship 1650042. J.R.I. was supported by USDA Hatch project CA-D-PLS-2066-H 548. D.R. was supported by…
+522,527c681,682
+< 
+< \section{Funding}
+< S.G.O. was supported by the UC Davis Dept. of Plant Sciences and NSF grant 1754098. A.I.H. was supported by National Science Foundation Graduate Research Fellowship 1650042. J.R.I. was supported by USDA Hatch project CA-D-PLS-2066-H 548. D.E.R. was supported by USDA Hatch project 1010469 and USDA NIFA grant no. 2020-67013-30904.
+< 
+< \section{Conflicts of interest}
+< We state that we have no conflict of interest.
+---
+> %We would like to acknowledge Limagrain for the use of their data and their feedback and support that made this work possible.
+> %\jri{Limagrain gets  authorship, no need to include here. Please cite the  NSF GF grant for some of your funding.}
+530c685,686
+< \beginsupplement
+---
+> 
+> %\pagebreak
+531a688
+> \beginsupplement
+533,716c690
+< 
+< \begingroup[ht]
+<   %\footnotesize
+<   %\setlength\LTleft{-20pt}%
+<   %\setlength\LTright{-30pt}%
+<   \centering
+< \begin{longtable}{c c c c c c c c}
+< \caption{\textbf{QTL Identified by Method and Environment} \label{tab:suptable2}} \\
+< %\renewcommand{\familydefault}{\sfdefault}\normalfont
+< %\begin{tabularx}{\textwidth}{xxxxxXXx}
+< \hline \hline
+< Chr. & ID & Phenotype & Method & Environment & Support Interval (bp) & Threshold\\
+< \hline
+< %chr 1
+< 1  & qTPH1 & PH & $QTL_F$ & BLUP & 13,053,862:15,379,189 & 10\% \\
+< &  qTKW1 & TKW1 & $QTL_F$ & Szeged (2017) & 11,671,250:26,014,128 & 10\% \\
+< &  qGYD1-1 & GY & $GWAS_{SNP}$ & St. Paul (2017) & 63,241,728:71,780,754 & 5\% \\
+< &  qGYD1-2 & GY & $GWAS_{SNP}$ & St. Paul (2017) & 173,166,714:173,401,292 & 5\% \\
+< \hline
+< %chr2
+< 2  & qTKW2 & TKW & $QTL_F$ & Blois (2017) & 17,689,185:20,386,177 & 10\% \\
+< &  qTKW2 & TKW & $QTL_H$ & Blois (2017) & 19,213,370:28,310,359 & 10\% \\
+< &  qHGM2 & HGM & $QTL_F$ & Graneros (2015) & 207,356,837:210,899,385 & 5\% \\
+< \hline
+< %chr 3
+< 3 &  qDTA3-1 & DTA & $GWAS_{SNP}$ & BLUP & 9,576,867:20,032,599 & 10\% \\
+< &  & & & Blois (2017) & 9,977,725:54,966,584 & 10\% \\
+< &  & & $QTL_F$ & BLUP & 9,468,968:11,692,672 & 10\% \\
+< &  & & & Blois (2017) & 9,468,968:11,692,672 & 5\% \\
+< &  & & $QTL_H$ & BLUP & 10,774,922:11,444,207 & 5\% \\
+< &  & & & Blois (2017) & 9,812,175:11,444,207 & 5\% \\
+< &  & & & Nerac (2016) & 10,774,922:11,444,207 & 10\% \\
+< &  qDTS3-1 & DTS & $QTL_H$ & BLUP & 10,774,922:11,444,207 & 10\% \\
+< &  & & $QTL_H$ & Nerac (2016) & 10,774,922:11,444,207 & 5\% \\
+< &  qTKW3 & TKW & $QTL_F$ & Blois (2017) & 12,160,355:12,556,111 & 10\% \\
+< &  qHGM3-1 & HGM & $GWAS_{SNP}$ & Blois (2104) & 16,215,776:34,201,739 & 5\% \\
+< &  & & $QTL_F$ & BLUP & 12,160,355:31,807,621 & 5\% \\
+< &  & & $QTL_H$ & BLUP & 10,774,951:54,007,246 & 10\% \\
+< 
+< &  qDTA3-2 & DTA & \multirow{1}{4em}{$GWAS_{SNP}$} & BLUP & 156,128,886:161,296,968 & 1\% \\
+< &  & & & Blois (2017) & 129,315,698:179,001,343 & 10\% \\
+< &  & & & Graneros (2015) & 156,128,886:161,412,773 & 1\% \\
+< &  & & & Nerac (2016) & 153,057,659:163,216,372 & 1\% \\
+< &  & & & St. Paul (2017) & 123,607,128:161,296,968 & 5\% \\
+< &  & & \multirow{1}{4em}{$QTL_F$} & BLUP & 155,999,962:161,420,983 & 1\% \\
+< &  & & & Blois (2014) & 155,999,962:161,420,983 & 1\% \\
+< &  & & & Blois (2017) & 155,999,962:163,307,287 & 1\% \\
+< &  & & & Graneros (2015) & 155,999,962:163,307,287 & 1\% \\
+< &  & & & Nerac (2016) & 158,563,749:161,475,295 & 1\% \\
+< &  & & & St. Paul (2017) & 155,999,962:161,475,295 & 1\% \\
+< &  & & & Szeged (2017) & 141,032,560:161,238,626 & 10\% \\
+< &  & & \multirow{1}{4em}{$QTL_H$} & BLUP & 155,852,367:155,852,367 & 1\% \\
+< &  & & & Blois (2014) & 157,175,061:161,412,773 & 1\% \\
+< &  & & & Blois (2017) & 157,175,061:161,412,773 & 1\% \\
+< & & & $QTL_H$ & Graneros (2015) & 159,141,941:161,486,117 & 1\% \\
+< &  & & & Nerac (2016) & 160,207,590:161,435,844 & 1\% \\
+< \hline \hline
+< Chr. & ID & Phenotype & Method & Environment & Support Interval (bp) & Threshold\\
+< \hline
+< 3 & qDTA3-2 & DTA & $QTL_H$ & St. Paul (2017) & 155,852,367:161,481,215 & 1\% \\
+< &  qDTS3-2 & DTS & \multirow{1}{4em}{$GWAS_{SNP}$} & BLUP & 141,622,242:161,296,968 & 1\% \\
+< &  & & & Blois (2014) & 140,531,962:163,216,283 & 1\% \\
+< &  & & & Graneros (2015) & 156,128,886:161,296,968 & 1\% \\
+< &  & & & Nerac (2016) & 160,214,408:168,342,144 & 1\% \\
+< &  & & & Szeged (2017) & 141,622,242:163,294,109 & 1\% \\
+< &  & & \multirow{1}{4em}{$QTL_F$} & BLUP & 160,273,248:161,420,983 & 1\% \\
+< &  & & & Blois (2014) & 140,531,962:163,216,283 & 1\% \\
+< &  & & & Blois (2017) & 141,032,560:163,307,287 & 1\% \\
+< &  & & & Graneros (2015) & 153,465,886:163,307,287 & 1\% \\
+< &  & & & Nerac (2016) & 160,273,248:161,420,983 & 1\% \\
+< &  & & & Szeged (2017) & 141,032,560:161,420,983 & 1\% \\
+< &  & & $QTL_H$ & BLUP & 155,852,367:163,307,287 & 1\% \\
+< &  & & & Blois (2014) & 159,604,235:161,412,773 & 1\% \\
+< &  & & & Blois (2017) & 141,153,604:163,307,287 & 1\% \\
+< &  & & & Graneros (2015) & 152,190,251:161,435,844 & 1\% \\
+< &  & & & Nerac (2016) & 160,392,864:161,237,016 & 1\% \\
+< &  & & & Szeged (2017) & 137,673,677:161,412,773 & 1\% \\
+< &  qHGM3-2 & HGM & $GWAS_{SNP}$ & BLUP & 133,870,185:157,564,855 & 1\% \\
+< &  & & $QTL_F$ & BLUP & 102,059,129:163,726,450 & 5\% \\
+< &  & & $QTL_H$ & BLUP & 135,632,376:157,563,421 & 5\% \\
+< &  qTPH3 & PH & $GWAS_{SNP}$ & BLUP & 139,282,905:183,874,792 & 10\% \\
+< &  & & & Nerac (2016) & 167,424,633:174,758,506 & 1\% \\
+< &  & & $QTL_F$ & Nerac (2016) & 168,869,189:171,846,046 & 10\% \\
+< &  & & $QTL_H$ & BLUP & 149,051,759:183,807,330 & 10\% \\
+< \hline
+< % chr4
+< 4  & qGYD4 & GY & $GWAS_{SNP}$ & Nerac (2016) & 174,745,869:174,758,681 & 10\% \\
+< \hline
+< %chr 5
+< 5  & qTKW5 & TKW & $GWAS_{SNP}$ & BLUP & 1,721,566:1,723,167 & 5\% \\
+< & GYD5 & GYD & $GWAS_{SNP}$ & St. Paul (2017) & 18,196,101:19,207,809 & 5\% \\
+< \hline
+< %chr 6
+< 6  & qGYD6 & GY & $GWAS_{SNP}$ & BLUP & 30,749,664:61,643,265 & 10\% \\
+< &  & & $QTL_F$ & BLUP & 26,946,128:50,840,937 & 10\% \\
+< &  qTPH6 & PH & $QTL_F$ & Blois (2014) & 105,707,110:106,378,416 & 10\% \\
+< \hline
+< %chr 7
+< 7  & qDTA7 & DTA & $GWAS_{SNP}$ & Graneros (2015) & 15,490,475:20,506,774 & 5\% \\
+< &  & & $QTL_F$ & Graneros (2015) & 9,361,661:17,862,397 & 5\% \\
+< &  & & $QTL_H$ & Graneros (2015) & 9,361,661:17,937,993 & 10\% \\
+< & qTKW7-1 & TKW & $GWAS_{SNP}$ & Blois (2017) & 10,938,777:27,939,165 & 5\% \\
+< &  & & $QTL_F$ & Blois (2017) &  10,973,468:22,700,741 & 1\% \\
+< &  & & $QTL_H$ & Blois (2017) &  10,933,860:82,800,018 & 5\% \\
+< &  qTPH7 & PH & $GWAS_{SNP}$ & BLUP & 9,548,103:10,085,223 & 1\% \\
+< &  & & & Blois (2017) & 9,378,259:10,085,223 & 5\% \\
+< &  & & $QTL_F$ & BLUP & 8,991,474:10,085,337 & 1\% \\
+< \hline \hline
+< Chr. & ID & Phenotype & Method & Environment & Support Interval (bp) & Threshold\\
+< \hline
+< 7 & qTPH7 & TPH & $QTL_H$ & BLUP & 8,979,716:10,085,223 & 5\% \\
+< &  qTKW7-2 & TKW & $GWAS_{SNP}$ & Graneros (2015) & 124,347,596:124,756,367 & 1\% \\
+< &  & & $QTL_F$ & Graneros (2015) & 95,797,065:131,824,096 & 5\% \\
+< &  & & $QTL_H$ & Graneros (2015)  & 107,149,522:131,212,353 & 10\% \\
+< \hline
+< %chr 8
+< 8  & qDTA8 & DTA & $GWAS_{SNP}$ & BLUP & 126,570,432:151,224,199 & 1\% \\
+< &  & & & Blois (2014) & 126,885,610:137,874,699 & 1\% \\
+< &  & & & Blois (2017) & 126,570,432:151,224,199 & 1\% \\
+< &  & & & Graneros (2015) & 120,341,014:146,112,050 & 1\% \\
+< &  & & & Nerac (2016) & 120,341,014:151,891,941 & 5\% \\
+< &  & & & St. Paul (2017) & 126,413,801:151,224,199 & 1\% \\
+< &  & & & Szeged (2017) & 126,885,610:151,891,941 & 1\% \\
+< &  & & $QTL_F$ & BLUP & 126,077,002:150,520,256 & 1\% \\
+< &  & & & Blois (2014) & 126,910,275:137,947,309 & 1\% \\
+< &  & & & Blois (2017) & 127,378,541:150,866,243 & 1\% \\
+< &  & & & Graneros (2015) & 120,340,882:150,520,256 & 1\% \\
+< &  & & & Nerac (2016) & 119,704,031:150,866,243 & 1\% \\
+< 
+< &  & & & St. Paul (2017) & 126,077,002:150,866,243 & 1\% \\
+< &  & & & Szeged (2017) & 142,750,019:152,574,587 & 1\% \\
+< &  & & $QTL_H$ & BLUP & 125,337,514:149,986,813 & 1\% \\
+< &  & & & Blois (2014) & 128,420,026:137,415,945 & 1\% \\
+< &  & & & Blois (2017) & 126,910,275:150,924,566 & 1\% \\
+< &  & & & Graneros (2015) & 119,775,957:149,437,688 & 1\% \\
+< &  & & & Nerac (2016) & 119,100,585:151,722,943 & 5\% \\
+< &  & & & St. Paul (2017) & 126,910,275:149,986,813 & 1\% \\
+< &  & & & Szeged (2017) & 128,742,959:151,006,728 & 1\% \\
+< 
+< &  qDTS8 & DTS & $GWAS_{SNP}$ & BLUP & 120,341,014:151,224,199 & 1\% \\
+< &  & & & Blois (2014) & 126,885,610:135,966,917 & 1\% \\
+< &  & & & Blois (2017) & 145,540,028:151,224,199 & 1\% \\
+< &  & & & Graneros (2015) & 119,781,443:137,874,699 & 1\% \\
+< &  & & & Szeged (2017) & 126,885,610:151,875,955 & 1\% \\
+< & & & $QTL_F$ & BLUP & 126,077,002:150,520,256 & 1\% \\
+< &  & & & Blois (2014) & 126,077,002:136,360,604 & 1\% \\
+< &  & & & Blois (2017) & 146,136,754:150,346,508 & 1\% \\
+< &  & & & Graneros (2015) & 119,704,031:136,360,604 & 1\% \\
+< &  & & & Szeged (2017) & 127,992,851:150,866,243 & 1\% \\
+< 
+< &  & & $QTL_H$ & BLUP & 127,378,541:149,437,688 & 1\% \\
+< &  & & & Blois (2014) & 128,420,026:136,008,951 & 1\% \\
+< &  & & & Blois (2017) & 145,263,274:149,986,813 & 1\% \\
+< &  & & & Graneros (2015) & 119,336,430:136,835,221 & 1\% \\
+< &  & & & St. Paul (2017) & 125,337,514:151,006,728 & 10\% \\
+< \hline \hline
+< Chr. & ID & Phenotype & Method & Environment & Support Interval (bp) & Threshold\\
+< \hline
+< 8 & qDTS8 & DTS & $QTL_H$ & Szeged (2017) & 127,378,541:151,006,728 & 1\% \\
+< &  qTPH8 & PH & $QTL_F$ & Graneros (2015) & 135,165,296:168,996,496 & 10\% \\
+< \hline
+< %chr 9
+< 9  & qTKW9 & TKW & $GWAS_{SNP}$ & BLUP & 15,122,815:18,089,022 & 10\% \\
+< &  & & $QTL_H$ & BLUP & 15,656,271:18,533,708 & 10\% \\
+< 9  & qDTA9 & DTA & $QTL_F$ & BLUP & 111,962,632:121,725,096 & 5\% \\
+< &  & & & Blois (2014) & 111,015,021:120,670,613 & 10\% \\
+< &  & & & Graneros (2015) & 114,343,703:118,040,833 & 10\% \\
+< &  & & & St. Paul (2017) & 111,962,632:124,483,594 & 5\% \\
+< &  & & $QTL_H$ & BLUP & 111,015,458:150,056,511 & 10\% \\
+< &  & & & St. Paul (2017) & 111,962,632:124,460,017 & 5\% \\
+< &  qDTS9 & DTS & $QTL_F$ & BLUP & 118,060,423:121,725,096 & 1\% \\
+< &  & & & Blois (2014) & 116,613,531:124,089,472 & 1\% \\
+< &  & & $QTL_H$ & BLUP & 114,817,909:124,763,331 & 5\% \\
+< &  & & & Blois (2014) & 114,347,350:124,860,954 & 5\% \\
+< \hline
+< 10 & qASI10 & ASI & $GWAS_{SNP}$ & BLUP & 116,610,226:123,356,331 & 10\% \\
+< \hline
+< %\end{tabularx}
+< \end{longtable}
+< \endgroup
+< 
+< 
+< \begin{table*}[htbp]
+< \renewcommand{\familydefault}{\sfdefault}\normalfont
+---
+> \begin{figure}[hb]
+718,729c692,695
+< \caption{\bf Size of QTL Support Intervals By Model}
+< \begin{tabularx}{\textwidth}{XXXXXXX}
+< \hline
+< \header Model &  Avg. Size (Mb) & Median Size (Mb) & Std. Dev (Mb) & Avg. Size (cM) & Median Size (cM) & Std. Dev (cM)\\
+< \hline
+< $GWAS_{SNP}$ & 17.53 & 19.67 & 10.19 & 7.31 & 8.21 & 3.50 \\
+< $QTL_F$ & 14.99 & 10.28 & 13.64 & 6.22 & 5.88 & 3.78 \\
+< $QTL_H$ & 13.72 & 9.24 & 10.27 & 5.75 & 5.45 & 3.63 \\
+< \hline
+< \end{tabularx}
+<   \label{tab:suptable1}
+< \end{table*}
+---
+> \includegraphics[width=\linewidth,height=14cm]{figures/Methods_Fig2_violinplot.png}
+> \caption{\textbf{Distribution of phenotypes} The density plots of the six measured phenotypes. The vertical bar represents the mean, and the grey shading shows two standard deviations. The heritability of each trait is shown on the right.}
+> \label{fig:supfigure1}
+> \end{figure}
+733,735c699,701
+< \includegraphics[width=16cm,height=10cm]{figures/all_chroms_ld_decay.png}
+< \caption{\textbf{Linkage Disequilibrium of the MAGIC population by Chromosome} Average $R^2$ of pairwise SNPs broken into bins of 100kb by distance.}
+< \label{fig:supfigure10}
+---
+> \includegraphics[width=16cm,height=10cm]{figures/PCA_LD1.png}
+> \caption{\textbf{Principal Component Analysis of the 16 Founders, Tester, and the 344 MAGIC DH Lines using 600K genotype data and LD filtering of 1 cM}}
+> \label{fig:supfigure7}
+740,742c706,708
+<     \includegraphics[width=16cm,height=10cm]{figures/IBD_graph_example.png}
+< \caption{\textbf{Complete and Incomplete IBD Graphs}. \textbf{(left)} An example of the creation of haplotype blocks. The presence of pairwise IBD between two founders along the chromosome is shown as blue blocks. Black verticals show the demarcation of distinct haplotype blocks at the start or and of a new pairwise IBD segment. The red and yellow shaded areas show examples of complete and incomplete founder IBD graphs, respectively. \textbf{(right)} A complete \textbf{(A)} and an incomplete \textbf{(B)} founder IBD graph. In cases where haplotypes were incomplete, the missing edges (i.e. the edge between Founder 1 and Founder 3) were filled in for downstream analysis.}
+< \label{fig:supfigure6}
+---
+> \includegraphics[width=16cm,height=10cm]{figures/Biogemma_Founder_to_DH_MAF.png}
+> \caption{\textbf{Minor Allele Frequencies of SNPs in the 16 Founders and the MAGIC lines}}
+> \label{fig:supfigure8}
+747,749c713,715
+< \includegraphics[width=16cm,height=10cm]{figures/PCA_LD1.png}
+< \caption{\textbf{Principal Component Analysis of the 16 Founders, Tester, and the 344 MAGIC DH Lines.} 600K genotype data was filtered using an LD filter of 1 cM. The points in grey are MAGIC lines. The colored points show the tester, MBS847 (dark grey) and the 16 founders.}
+< \label{fig:supfigure7}
+---
+> \includegraphics[width=16cm,height=10cm]{figures/nj_tree.png}
+> \caption{\textbf{Neighbor-Joining Tree of the 16 Founders and Tester using the 600K genotype data}}
+> \label{fig:supfigure9}
+754,756c720,722
+< \includegraphics[width=16cm,height=10cm]{figures/Biogemma_Founder_to_DH_MAF.png}
+< \caption{\textbf{Minor Allele Frequencies of SNPs in the 16 Founders and the MAGIC lines.} The x-axis shows the minor allele frequency of 600K SNPs in the 16 founders. The y-axis shows the minor allele frequency of the corresponding SNPs in the MAGIC population.}
+< \label{fig:supfigure8}
+---
+> \includegraphics[width=16cm,height=10cm]{figures/all_chroms_ld_decay.png}
+> \caption{\textbf{Linkage Disequilibrium of the MAGIC population by Chromosome} Average $R^2$ of pairwise SNPs broken into bins of 10kb by distance.}
+> \label{fig:supfigure10}
+762c728
+< \caption{\textbf{Overlap between uncertainty in founder probabilities and pairwise Identity-By-Descent between founders.} \textbf{(top)} An example of founder probabilities across chromosome 10 for two MAGIC lines. The y-axis shows the probability of the line being derived from each of the 16 founders, shown in different colors. \textbf{(bottom)} Pairwise IBD state across chromosome 10 between two founders, F492 and A654, which correspond to uncertainty in founder probabilities above.}
+---
+> \caption{\textbf{Overlap between uncertainty in founder probabilities and pairwise Identity-By-Descent between founders}}
+768,770c734,736
+< \includegraphics[width=16cm,height=10cm]{figures/nj_tree.png}
+< \caption{\textbf{Neighbor-Joining Tree of the 16 Founders and Tester using the 600K genotype data} A UPGMA dendrogram created using the TASSEL software \citep{Bradbury}.}
+< \label{fig:supfigure9}
+---
+>     \includegraphics[width=16cm,height=10cm]{figures/IBD_graph_example.png}
+> \caption{\textbf{Complete and Incomplete IBD Graphs}}
+> \label{fig:supfigure6}
+775c741
+< \includegraphics[width=16cm,height=10cm]{figures/environment_QTL_by_method.png}
+---
+> \includegraphics[width=\textwidth,height=14cm]{figures/environment_QTL_by_method.png}
+782,783c748,749
+< \includegraphics[width=16cm,height=10cm]{figures/threshold_by_method_counts.png}
+< \caption{\textbf{Total Number of Environment-QTL Found By Method By Significance Threshold} S: $GWAS_{SNP}$, F: $QTL_F$, H: $QTL_H$. Environment-specific QTL are QTL for a phenotype that were identified in one environment. Color indicates new QTL found by raising the significance threshold from 1\% (red) to 5\% (green) to 10\% (blue).}
+---
+> \includegraphics[width=\textwidth,height=14cm]{figures/threshold_by_method_counts.png}
+> \caption{\textbf{Total Number of Environment-QTL Found By Method By Significance Threshold} S: $GWAS_{SNP}$, F: $QTL_F$, H: $QTL_H$. Environment-specific QTL are QTL for a phenotype that were identified in one environment. QTL were called as found by multiple methods if their support intervals overlapped (see Methods).}
+790c756
+< \caption{\textbf{Size of QTL Support Intervals for Shared QTL by Method in Genetic Distance (cM)} 600K\_SNP: $GWAS_{SNP}$, Founder\_probs: $QTL_F$, Haplotype\_probs: $QTL_H$. Colors indicate individual Environment-QTL.}
+---
+> \caption{\textbf{Size of QTL Support Intervals for Shared QTL by Method in Genetic Distance (cM)}}
+797c763
+< \caption{\textbf{Size of QTL Support Intervals for Shared QTL by Method in Physical Distance (Mb)} 600K\_SNP: $GWAS_{SNP}$, Founder\_probs: $QTL_F$, Haplotype\_probs: $QTL_H$. Colors indicate individual Environment-QTL.}
+---
+> \caption{\textbf{Size of QTL Support Intervals for Shared QTL by Method in Physical Distance (Mb)}}
+803,805c769,771
+< \includegraphics[width=16cm,height=10cm]{figures/mite_founder_haps.png}
+< \caption{\textbf{Haplotype View of the MITE insertion underlying \emph{vgt1} in the 16 Founders and tester, MBS847} Red blocks indicates the location of the MITE insertion. Founders are separated by $MITE^-$, $MITE^+$ Early, and $MITE^+$ Late based off of their allele at \emph{vgt1} and groupings based on the estimated founder effect size. Created using the haplostrips software \citep{Marnetto}}
+< \label{fig:supfigure14}
+---
+> \includegraphics[width=16cm,height=10cm]{figures/all_chrom_founder_chi_sq.png}
+> \caption{\textbf{$\rchi^2$ Peaks for Deviation from Equal Founder Distribution by Chromosome} Red line indicates a 5\% significance threshold (-log10(p-value=8.828254)) obtained from 100 simulated populations.}
+> \label{fig:supfigure11}
+811c777
+< \caption{\textbf{Genome Scan for Epistasis with \emph{vgt1}.} Red line indicates a Bonferroni 5\% significance threshold.}
+---
+> \caption{\textbf{Genome Scan for Epistasis with \emph{vgt1}} Red line indicates a Bonferroni 5\% significance threshold.}
+824,826c790,792
+< \includegraphics[width=16cm,height=10cm]{figures/all_chrom_founder_chi_sq.png}
+< \caption{\textbf{$\rchi^2$ Peaks for Deviation from Equal Founder Distribution by Chromosome} Red line indicates a 5\% significance threshold (-log10(p-value=8.82)) obtained from 100 simulated populations.}
+< \label{fig:supfigure11}
+---
+> \includegraphics[width=16cm,height=10cm]{figures/mite_founder_haps.png}
+> \caption{\textbf{Haplotype View of the MITE insertion underlying \emph{vgt1} in the 16 Founders and tester, MBS847} Red bocks indicates the location of the MITE insertion. Founders are separated by $MITE^-$, $MITE^+$ Early, and $MITE^+$ Late based off of allele at \emph{vgt1} and groupings based on the estimated founder effect size.}
+> \label{fig:supfigure14}
+831c797
+< \includegraphics[width=16cm,height=10cm]{figures/ft_overlap_enrichment_density.png}
+---
+> \includegraphics[width=\linewidth]{figures/ft_overlap_enrichment_density.png}
+837,838c803,882
+< \endsupplement
+< \end{document} 
+---
+> 
+> %\blindtext
+> %\begin{figure*}[h!]
+> %\includegraphics[width=.9\linewidth]{figures/lab_group.png}
+> %\caption{\textbf{Supplemental figure} Test test test}
+> %\label{fig:S1}
+> %\end{figure*}
+> \pagebreak
+> 
+> 
+> %\begin{table*}[htbp]
+> %\centering
+> 
+> %\caption{\bf Shrink a large table to fit the page}
+> %\begin{adjustbox}{totalheight=\textheight-2\baselineskip}
+> %\begin{tableminipage}{\textwidth}
+> %\begin{small}
+> %\begin{tabularx}{\textwidth}{sb}
+> %\hline
+> %Parameter & Description \\
+> %\hline
+> %\textbf{Adaptation} & \textbf{Trait related parameters} \\
+> %\hline
+> %Time to optimum & Generations until new optimum is reached \\
+> %Adaptation rate (haldane) & Adaptation rate until new optimum is reached. Calculated as $rate(h) = \frac{\frac{ln(x_2)}{sd_{x_{12}}}-\frac{ln(x_1)}{sd_{x_{12}}}}{t_2-t_1}$ \\
+> %Final genetic variance & Genetic variance in the final generation \\
+> %\textbf{Fixations} & \textbf{Mutations that fix after the optimum shift} \\
+> %\hline
+> %From new mutations (\#) & Sum of fixed mutations in the final population that were already segregating before  the optimum shift \\
+> %From standing variation (\#) & Sum of fixed mutations in the final population that arose after the optimum shift \\
+> %Max. effect size & Maximal effect size of all fixations \\
+> %Mean effect size & Mean effect size of all fixations \\
+> %Mean effect size of negative fixations & Mean effect size of negative mutations \\
+> %Mean effect size of positive fixations & Mean effect size of positive mutations \\
+> %Mean emergence time & Mean generation when a mutation arose that fixed in the last 0.1 N generations \\
+> %Mean fixation time & Mean generation in which a mutation fixed \\
+> %Min. effect size & Minimal effect size of all fixations \\
+> %Negative (\#) & Sum of fixed mutations with negative effects in the final population \\
+> %New/standing fixations & Ratio of mutations from new mutations vs. standing mutations  \\
+> %Proportion negative & Proportion of negative fixations from all mutations \\
+> %Positive (\#) & Sum of fixed mutations with positive effects in the final population \\
+> %SD of effect sizes & Standard deviation of effect sizes of all fixations \\
+> %SD of negative effect sizes & Standard deviation of effect sizes of negative fixations \\
+> %SD of positive effect sizes & Standard deviation of effect sizes of positive fixations \\
+> %Total (\#) & Sum of fixed mutations in the final population \\
+> %\textbf{Sweeps} & \textbf{Mutations that fix faster than 99\% of neutral fixations} \\
+> %\hline
+> %Hard sweeps (\#) & Sum of selective sweeps from new mutations \\
+> %Proportion of hard sweeps & Porportion of hard selective sweeps of all selective sweeps \\
+> %Proportion of sweeps from standing & Proportion of selective sweeps from stainding variation of all selection sweeps \\
+> %Sweeps (\#) & Sum of selective sweeps \\
+> %Sweeps from standing variation (\#) & Sum of selective sweeps from mutations that were already segregating before  the optimum shift \\
+> %Sweeps/fixations & Ratio of sweeps vs. fixations \\
+> %\textbf{Segregating sites} & \textbf{Mutations that segregate in the final generation} \\
+> %\hline
+> %Max. effect size & Maximal effect size of segregating sites \\
+> %Mean effect size & Mean effect size of segregating sites \\
+> %Mean effect size of negative sites & Mean effect size of segregating sites %with negative effects \\
+> %Mean effect size of positive sites & Mean effect size of segregating sites with positive effects \\
+> %Mean frequency of all sites & Mean allele frequency of segregating sites \\
+> %Mean frequency of negative sites & Mean allele frequency of segregating sites with negative effects \\
+> %Mean frequency of positive sites & Mean allele frequency of segregating sites with positive effects \\
+> %Min. effect size & Minimal effect size of segregating sites \\
+> %Negative (\#) & Sum of segregating sites with negative effect \\
+> %Positive (\#) & Sum of segregating sites with positive effect \\
+> %Proportion of negative sites & Proportion of segregating sites with negative effect of all segregating sites \\
+> %Standard deviation of effect sizes & Standard deviation of effect sizes of all segregating sites \\
+> %Total (\#) & Sum segregating sites in the final generation \\
+> %\hline
+> 
+> %\end{tabularx}
+> %  \label{tab:parameter_list}
+> %  \end{small}
+> %\end{tableminipage}
+> 
+> %\end{adjustbox}
+> %\end{table*}
+> 
+> 
+> \end{document}
